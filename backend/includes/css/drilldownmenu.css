@@ -1,0 +1,95 @@
+element.style {
+overflow-y: auto;
+}
+.drillmenu{ /* main DIV container of menu */
+width: 98%; /*width of menu*/
+height: 300px; /*Height of DIV for those with JavaScript disabled*/
+overflow-y: auto; /*Scrollable DIV for those with JavaScript disabled*/
+background: #FFF; /*background of menu.*/
+}
+
+.drillmenu ul{ /*menu ULs*/
+font: normal 13px Verdana;
+margin: 0;
+padding: 0;
+list-style-type: none;
+background: #ffffff;/*lightyellow; /*background of menu*/
+}
+
+.drillmenu li a{ /*menu links*/
+display: block;
+color: #055A78;
+text-decoration: none;
+padding: 5px;
+}
+
+* html .drillmenu li{ /*IE6 CSS hack*/
+display: inline-block;
+}
+
+.drillmenu li a:hover{
+/*background-color: #DDEAEF;/*#4A2500;*/
+background-color: #F7F7F8;/*#4A2500;*/
+color: #055A78;
+font-weight:bold;
+}
+
+
+li.backcontroltitle{ /*style of top level menu title*/
+/*background: #DDEAEF;/*black;*/
+background: #F7F7F8;/*black;*/
+color: #055A78;
+padding: 4px;
+font-weight:bold;
+}
+
+li.backcontrol{ /*style of back button control that gets added to the top of each sub UL*/
+/*background: #011054; original*/
+background: #DDEAEF; /*blue*/
+/*background: #F7F7F8;*//*dark*/
+color: #055A78;
+font-weight:bold;
+padding: 4px;
+cursor: hand;
+cursor: pointer;
+}
+
+#drillcrumb{ /*custom, user defined DIV that contains breadcrumb trail*/
+margin-bottom: 5px;
+font: bold 13px Verdana;
+/*color:#F7F7F8;*/ /*black*/
+color: darkred; 
+}
+
+#drillcrumb a{ /*custom element*/
+color: darkred;
+/*color:#F7F7F8;*/ /*black*/
+font-weight:bold;
+}
+
+#drillcrumb2{ /*custom, user defined DIV that contains breadcrumb trail*/
+margin-bottom: 5px;
+font: bold 13px Verdana;
+color: darkred; 
+/*color:#F7F7F8; *//*balck*/
+}
+
+#drillcrumb2 a{ /*custom element*/
+color: darkred;
+/*color:#F7F7F8;*/ /*black*/
+font-weight:bold;
+}
+
+
+#drillcrumb3{ /*custom, user defined DIV that contains breadcrumb trail*/
+margin-bottom: 5px;
+font: bold 13px Verdana;
+color: darkred; 
+/*color:#F7F7F8; *//*balck*/
+}
+
+#drillcrumb3 a{ /*custom element*/
+color: darkred;
+/*color:#F7F7F8;*/ /*black*/
+font-weight:bold;
+}

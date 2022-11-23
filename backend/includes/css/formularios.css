@@ -1,0 +1,183 @@
+form.medio1 {
+	margin: 10px auto;//25
+}
+
+form.medio1 div {
+	text-align: left;
+	margin: 10px auto;
+	width: 400px;
+}
+
+form.medio1 label {
+	font-weight: bold;
+	margin-right: 15px;
+	float: left;
+	width: 130px;
+	text-align: right;
+	line-height: 22px;
+}
+
+
+form.medio1 div.boton {
+
+	text-align: center;
+	margin: 25px auto;
+	border-top: solid 1px #CCC;
+	padding-top: 25px;
+}
+
+
+
+form.medio {
+	margin: 10px auto;//25
+}
+
+form.medio div {
+	text-align: left;
+	margin: 10px auto;
+	width: 500px;
+}
+
+form.medio label {
+	font-weight: bold;
+	margin-right: 15px;
+	float: left;
+	width: 200px;
+	text-align: right;
+	line-height: 22px;
+}
+
+
+form.medio div.boton {
+
+	text-align: center;
+	margin: 25px auto;
+	border-top: solid 1px #CCC;
+	padding-top: 25px;
+}
+
+
+
+/*------------------------------*/
+
+
+table.formulario { 
+	border-collapse: collapse; 
+	text-align: left; 
+	width: 98%;
+	margin: 0 auto 0;
+}
+
+table.formulario select.grande {
+
+	width: 350px !important;
+}
+
+table.formulario th, table.formulario td {
+	padding: 2px; 
+	border-bottom: solid 1px #EEE;
+	vertical-align: middle;	
+	font-family:Tahoma;
+}
+
+table.formulario caption {
+
+	background-color: #EFEFEF;
+	font-size: 9pt;
+	margin-bottom: 15px;
+	padding: 5px 0;
+	font-family:Tahoma;
+}
+
+table.formulario em {
+	color: #F22;
+}
+
+table.formulario th, table.formulario td { font-size: 9pt; vertical-align:middle; font-family:Tahoma; }
+
+
+table.formulario input {
+	border: solid 1px #BBB;
+	padding-left: 1px;
+	font-size: 9pt;
+}
+
+
+table.formulario select {
+	border: solid 1px #BBB;
+	width: 145px;
+	font-size: 9pt;
+	font-family:Tahoma;
+}
+
+table.formulario tr.especial td {
+background-color: #EFEFEF;
+font-family:Tahoma;
+}
+
+span.simbolo span { 
+	font-size: 11px; 
+	font-weight: bold; 
+	float: left;
+	display: block;
+	width: 15px;
+	line-height: 25px;
+	padding-left: 5px;
+	z-index: 1;
+	position: relative;
+}
+
+span.simbolo input  {
+	position:relative;
+	left: -20px;
+	padding-left: 35px;
+	text-align: right;
+	padding-right: 10px;
+	width: 140px;
+	z-index: 0;
+}
+
+table.formulario td sup {
+
+	color: #666;
+	position:relative;
+	top: 0px;
+	left: 5px;
+	font-weight: bold;
+	font-family:Tahoma;
+}
+
+
+table.formulario textarea {
+ display: inline; 
+ vertical-align: middle; 
+ font-size: 11px; 
+ color: #444;
+ font-family:Tahoma;
+}
+
+table.formulario td.referencia {
+
+	font-size: 7pt;
+	text-align: center;
+	border-bottom: 0;
+	padding: 15px 0;
+	font-family:Tahoma;
+}
+
+table.formulario td.centrar {
+
+	font-size: 7pt;
+	/*text-align: center;*/
+	border-bottom: 0;
+	padding: 0px 0;
+	font-family:Tahoma;
+}
+table.formulario th.cabecera {
+
+	font-size: 9pt;
+	text-align: center;
+	/*background:#EDE0EF;*/
+	background:#DEDEDE;
+	font-family:Tahoma;
+}

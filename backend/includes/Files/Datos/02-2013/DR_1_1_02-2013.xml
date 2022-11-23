@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+          <!--Este  es un ejemplo para crear un archivo xml con php-->
+           <resumen>
+       			<idGrupoAfinidad>1</idGrupoAfinidad>
+				<idCuentaUsuario>1</idCuentaUsuario>
+				<idModeloResumen>1</idModeloResumen>
+				<sNumeroCuentaUsuario>0100001</sNumeroCuentaUsuario>
+				<dPeriodo>2013-02-01 00:00:00</dPeriodo>
+				<dFechaCierre>22/02/2013</dFechaCierre>
+				<dFechaVencimiento>10/03/2013</dFechaVencimiento>
+				<dFechaCierreSiguiente>22/03/2013</dFechaCierreSiguiente>
+				<dFechaVencimientoSiguiente>10/04/2013</dFechaVencimientoSiguiente>
+				<dFechaInicio>19/01/2013</dFechaInicio>
+				<fSaldoAnterior>0.00</fSaldoAnterior>
+				<sTitular><![CDATA[ELENA PEREZ]]></sTitular>
+				<sEstado>NORMAL</sEstado>
+				<sDomicilio><![CDATA[Calle:LAMADRID 308, Nro:, Barrio:VILLA CRISTINA<br>Salta, SALTA, 4400]]></sDomicilio>
+				<fTotalResumen>100.00</fTotalResumen>
+				<fLimiteCredito>3500.00</fLimiteCredito>
+				<fLimiteCompra>3500.00</fLimiteCompra>
+				<fLimiteAdelanto>1400.00</fLimiteAdelanto>
+				<fRemanenteCredito>2900.00</fRemanenteCredito>					
+				<fRemanenteCompra>3500.00</fRemanenteCompra>					
+	    		<fRemanenteAdelanto>1400.00</fRemanenteAdelanto>
+	   		   	<detalle>
+	   		   		<idDetalle>7</idDetalle>
+	   		   		<tipoOperacion>1</tipoOperacion>
+	   		   		<sDescripcion><![CDATA[GRIVA SRL]]></sDescripcion>
+	   		   		<idComercio>1</idComercio>
+	   		   		<idPlan>1</idPlan>
+	   		   		<sSucursal>CENTRAL SALTA</sSucursal>
+	   		   		<dFechaOperacion>22/01/2013</dFechaOperacion>
+	   		   		<sNumeroCuota>1</sNumeroCuota>
+	   		   		<sCantidadCuota>6</sCantidadCuota>
+	   		   		<sNumeroCupon>10001</sNumeroCupon>
+	   		   		<fImporte>100.00</fImporte>
+	   		   	</detalle>
+	   		   	</resumen>

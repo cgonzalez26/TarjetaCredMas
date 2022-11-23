@@ -1,0 +1,137 @@
+<center>
+<!--<div id='BODY'>-->
+
+<!--<center>
+<div class='title_section' style='width:720px;'>
+	&nbsp;&nbsp;Reporte Solicitudes por Empleados
+</div>
+</center>-->
+
+<!--{pathBrowser}-->
+<form action="javascript:void(0);" method="POST" name="form_search" id="form_search"><center>
+	<div style="width:720px;">
+		<fieldset style="border-top:2px solid #000;border-right:0px solid #CCC;border-bottom:2px solid #000;border-left:0px solid #CCC;">
+		<legend style="text-align:left;border:0px solid #FFF;">
+			<img src='{IMAGES_DIR}/search32.png' title='buscar' alt='buscar' hspace='4' align='absmiddle' />
+			FILTRO COBRANZAS
+		</legend>	
+		
+		<table style="width:680px !important;font-size:11px;" cellspacing="3" cellpadding="3" border="0">
+		 <tr>
+		  	<td align="right" width="140">Region:</td>
+		  	<td width="" colspan="3">
+		  		<select name="idRegion" id="idRegion" style="width:150px;">
+		  			{options_regiones}
+		  		</select>		  	
+		  	</td>
+		 </tr>
+		 <tr>
+		  	<td align="right" width="140">Sucursal:</td>
+		  	<td width="150">
+		  		<select name="idSucursal" id="idSucursal" style="width:150px;">
+		  			{options_sucursales}
+		  		</select>
+		  	</td>
+		  	<td align="right" width="140">Oficina:</td>
+		  	<td width="150">
+		  		<select name="idOficina" id="idOficina" style="width:150px;">
+		  			{options_oficinas}
+		  		</select>
+		  	</td>
+		 </tr>
+		 <tr>
+		  	
+		  	<td align="right" width="140"><strong>COBRANZAS</strong></td>
+		  	<td colspan="3"></td>
+		 </tr>		 		
+		 <tr>
+		  	<td align="right" width="140">DESDE:</td>
+		  	<td width="150"><input type="text" name="dFechaDesde" id="dFechaDesde" value='{dFechaDesde}'></td>
+		  	<td align="right" width="140">HASTA:</td>
+		  	<td width="150"><input type="text" name="dFechaHasta" id="dFechaHasta" value='{dFechaHasta}'></td>
+		 </tr>
+		 <tr>
+			<td align="center" colspan="4">
+				&nbsp;
+			</td>
+		 </tr>		 
+		 <tr>
+			<td align="center" colspan="4">
+				<button type='button' name='buscar' style="width:120px;padding:5px;" onclick="search_form();return false;"> Buscar </button>
+				<input type="hidden" name="cmd_search" id="cmd_search" value="1" />
+			</td>
+		 </tr>
+		 </table>		
+		</fieldset>
+	</div>
+	</center>
+	
+</form>
+	
+
+	<br />
+
+{search_form}
+
+<center>
+<div id='div_message_operations' style='width:720px;'>
+{message}
+</div>
+</center>
+
+{buttons}
+
+<div id='div_result_button'>
+ 	
+</div>
+<br />
+<div id="div_result_search">
+	{table}
+</div>
+
+<script type='text/javascript'>
+
+	InputMask('dFechaDesde','99/99/9999');
+	InputMask('dFechaHasta','99/99/9999');
+	
+	function reset_cmd_search(){
+		document.getElementById('cmd_search').removeAttribute("disabled");
+	}
+	
+	
+	function search_form(){
+		
+			_imageLoading_('div_result_search','buscando...');
+	
+			xajax_reporteCobranzasEmpleados(xajax.getFormValues('form_search'));		
+	}
+
+
+	/*function delete(_n,_i){
+		var ok = confirm('Esta seguro de borrar : \"' + _n + '\" ?');
+		var index = 'div_' + _i ;
+		if(ok){
+			
+			_imageLoading_(index,'');
+	
+			xajax_delete(_i);
+		}
+	}*/	
+	
+	
+	function printReportesCobranzasEmpleados(){
+		document.getElementById('impresiones').innerHTML = document.getElementById('div_result_search').innerHTML;
+		window.print();
+	}
+	
+	function _imageLoading_(_div_,_text_){
+		document.getElementById(_div_).innerHTML = "<img src=\"{IMAGES_DIR}/ajax-loader.gif\" title=\"cargando\" alt=\"...\" width=\"16\" height=\"16\" align=\"absmiddle\"> <span style='font-size:11px;'>" + _text_ + "</span>";
+	}	
+
+	{javascript_adicional}
+</script>
+
+
+
+<!--</div>-->
+</center>

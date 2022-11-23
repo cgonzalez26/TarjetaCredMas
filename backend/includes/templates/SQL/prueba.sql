@@ -1,0 +1,7 @@
+SELECT *
+
+FROM titulares
+
+WHERE {HOLA}
+
+ORDEr BY {ORDEN}

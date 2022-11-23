@@ -1,0 +1,106 @@
+/*************************************************************************/
+/**CODIGO DE LA VENTANAPRINCIPAL COMO LAS DE PROTOTYPE**/
+.dialog_p{
+       width:680px;
+       height:auto;
+       /*margin-left:50px;*/
+       padding:0;
+}
+
+.dialog_Actividades{
+       width:590px;
+       height:auto;
+       padding:0;
+}
+.dialog_Actividades *{
+       margin: 0px;
+	padding:0px;
+}
+.dialog_Actividades table  { border-collapse: collapse; border-spacing: 0; width:100%;  }
+.dialog_Actividades td, th { padding: 0; }
+
+
+
+.dialog_p p,label,h2,a{color:#111;}/*****con esto se modifica el color de las letras*/
+
+.dialog_p * {
+	margin: 0px;
+	padding:0px;
+    
+}
+.dialog_p table  { border-collapse: collapse; border-spacing: 0; width:100%;  }
+.dialog_p td, th { padding: 0; }
+/***/
+.dialog_nw {
+	width: 9px;
+	height: 23px;
+	background: transparent url(default/top_left.gif) no-repeat 0 0;		
+}
+
+.dialog_n {
+	background: transparent url(default/top_mid.gif) repeat-x 0 0;	
+	height: 23px;
+	width: 100%;
+}
+
+.dialog_ne {
+	width: 9px;
+	height: 23px;
+	background: transparent url(default/top_right.gif) no-repeat 0 0;		
+}
+
+.dialog_e {
+	width: 2px;
+	height: 100%;
+	
+	background-image: url(default/center_right.gif);
+		
+}
+
+.dialog_w {
+	width: 2px;
+	height: 100%;
+	background: transparent url(default/center_left.gif) repeat-y 0 0;		
+}
+
+.dialog_sw {
+	width: 9px;
+	height: 19px;
+	background: transparent url(default/bottom_left.gif) no-repeat 0 0;			
+}
+
+.dialog_s {
+	background: transparent url(default/bottom_mid.gif) repeat-x 0 0;		
+	height: 19px;
+	width: 100%;
+}
+
+.dialog_se {
+	width: 9px;
+	height: 19px;
+	background: transparent url(default/bottom_right.gif) no-repeat 0 0;			
+}
+
+.dialog_sizer {
+	width: 9px;
+	height: 19px;
+	background: transparent url(default/sizer.gif) no-repeat 0 0;	
+	cursor:se-resize;	
+}
+.dialog_content_roby {
+	overflow:auto;
+	color: #111;
+	font-family: Tahoma, Arial, Sans Serif;
+	font-size: 10px;
+	background-color:#FFF;
+	
+}
+
+.dialog_content_comun {
+	overflow:auto;
+	color: #111;
+	font-family: Tahoma, Arial, Sans Serif;
+	font-size: 10px;
+	background-color:#fff;
+	
+}

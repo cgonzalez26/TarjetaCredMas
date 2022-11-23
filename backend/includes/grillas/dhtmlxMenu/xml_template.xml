@@ -1,0 +1,59 @@
+[BASIC]
+
+<?xml version="1.0"?>
+<menu>											top xml tag, mandatory
+	<item id="file" text="File">							top-level item, each item must have unique ID
+		<item id="new" text="New"/>						sub-level item
+		<item id="ms1" type="separator"/>					sublevel separator item
+		...
+		<item id="export" text="Export">
+			<item id="export_pdf" text="PDF"/>				sub-sublevel item
+			...
+		</item>
+		...
+	</item>
+</menu>
+
+[ADVANCED]
+
+<?xml version="1.0"?>
+<menu>
+	<item id="file" text="File">
+		<item id="new" text="New" img="new.gif" imgdis="new_dis.gif"/>		including images for enabled/disabled states
+		<item id="ms1" type="separator"/>
+		...
+		<item id="export" text="Export">
+			<item id="export_pdf" text="PDF" enabled="false"/>		will disabled by the default
+			...
+		</item>
+		...
+	</item>
+</menu>
+
+[FULL]
+
+<?xml version="1.0"?>
+<menu>
+	<item id="file" text="File">
+		<item id="new" text="New" img="new.gif" imgdis="new_dis.gif">
+			<hotkey>Ctrl+N</hotkey>						hotkey will added (just a text)
+		</item>
+		<item id="ms1" type="separator"/>
+		...
+		<item id="export" text="Export">
+			<item id="export_pdf" text="PDF" enabled="false"/>
+			...
+		</item>
+		...
+		<item id="eol" text="End Of Line">
+			<item id="eol_u" text="Unix (\n)" type="radio" group="eol" checked="true"/>	radiobutton, group "eol", checked by the default
+			<item id="eol_w" text="DOS/Windows (\r\n)" type="radio" group="eol"/>		radiobutton, group "eol"
+			<item id="eol_m" text="MacOS (\r)" type="radio" group="eol"/>			radiobutton, group "eol"
+			<item id="eol_m" text="MacOS (\r)" type="radio" group="eol"/>			radiobutton, group "eol", disabled
+													we got a radiogroup "eol" with 4 buttons, 1 disabled
+		</item>
+		<item id="ms2" type="separator"/>
+		<item id="ignorecase" text="Ignore Case" type="checkbox" checked="true" enabled="false"/>	disabled checked checkbox
+		<item id="checkspelling" text="Check Spelling" type="checkbox"/>				unchecked checkbox
+	</item>
+</menu>

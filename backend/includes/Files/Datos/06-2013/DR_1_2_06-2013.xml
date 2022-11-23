@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+          <!--Este  es un ejemplo para crear un archivo xml con php-->
+           <resumen>
+       			<idGrupoAfinidad>1</idGrupoAfinidad>
+				<idCuentaUsuario>2</idCuentaUsuario>
+				<idModeloResumen>1</idModeloResumen>
+				<sNumeroCuentaUsuario>0100001</sNumeroCuentaUsuario>
+				<dPeriodo>2013-06-01 00:00:00</dPeriodo>
+				<dFechaCierre>24/06/2013</dFechaCierre>
+				<dFechaVencimiento>10/07/2013</dFechaVencimiento>
+				<dFechaCierreSiguiente>24/07/2013</dFechaCierreSiguiente>
+				<dFechaVencimientoSiguiente>10/08/2013</dFechaVencimientoSiguiente>
+				<dFechaInicio>19/06/2013</dFechaInicio>
+				<fSaldoAnterior>0.00</fSaldoAnterior>
+				<sTitular><![CDATA[MARCELO ALEJANDRO OBEJERO]]></sTitular>
+				<sEstado>NORMAL</sEstado>
+				<sDomicilio><![CDATA[Calle:JURAMENTO, Nro:2598, Barrio:SANTA CLARA DE ASIS<br>Salta, SALTA, 4400]]></sDomicilio>
+				<fTotalResumen>166.67</fTotalResumen>
+				<fLimiteCredito>2000.00</fLimiteCredito>
+				<fLimiteCompra>1000.00</fLimiteCompra>
+				<fLimiteAdelanto>1000.00</fLimiteAdelanto>
+				<fRemanenteCredito>0.00</fRemanenteCredito>					
+				<fRemanenteCompra>833.33</fRemanenteCompra>					
+	    		<fRemanenteAdelanto>1000.00</fRemanenteAdelanto>
+	   		   	<detalle>
+	   		   		<idDetalle>13</idDetalle>
+	   		   		<tipoOperacion>1</tipoOperacion>
+	   		   		<sDescripcion><![CDATA[GRIVA]]></sDescripcion>
+	   		   		<idComercio>1</idComercio>
+	   		   		<idPlan>1</idPlan>
+	   		   		<sSucursal>CENTRAL SALTA</sSucursal>
+	   		   		<dFechaOperacion>19/06/2013</dFechaOperacion>
+	   		   		<sNumeroCuota>1</sNumeroCuota>
+	   		   		<sCantidadCuota>12</sCantidadCuota>
+	   		   		<sNumeroCupon>3</sNumeroCupon>
+	   		   		<fImporte>166.67</fImporte>
+	   		   	</detalle>
+	   		   	</resumen>

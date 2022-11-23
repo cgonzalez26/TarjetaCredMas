@@ -1,0 +1,17 @@
+
+div#impresiones { display: none; }
+
+@media print {
+
+	div#impresiones {
+		display: block;
+		width: 100%;				
+		margin:0px;
+		padding-left:30px;
+		z-index: 100000!important;
+	}			
+	
+	div#BODY{ display: none; }		
+	div#cabecera{ display: none; }	
+	div#principal{ display: none; }	
+}	

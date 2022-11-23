@@ -1,0 +1,90 @@
+table.cuotas {
+
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: solid 1px #666;
+	background-color:#FFF;
+}
+
+table.cuotas thead th {
+	background-color: #FCEFFF;
+	text-align: center;
+	border: solid 1px #CCC;
+}
+
+table.cuotas thead tr.primera th {
+    background-color: #FCEFFF;
+	padding: 10px;
+	font-size: 10pt;
+	border: solid 2px #666;	
+}
+
+table.cuotas thead tr.segunda th {
+background-color: #FCEFFF;
+	border: solid 1px #666;
+	border-top: solid 2px #666;
+	padding: 5px 0;
+}
+
+table.cuotas thead tr.tercera th {
+background-color: #FCEFFF;
+	font-weight: normal;
+	border-bottom: solid 1px #666;
+	font-size:9pt !important;
+}
+
+table.cuotas tr.ultima td {
+	border-bottom: solid 2px #666;
+}
+
+
+table.cuotas tbody td {
+
+	border: solid 1px #CCC;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 0;
+	border-bottom: solid 1px #666;
+	font-size:9pt !important;
+}
+
+table.cuotas tbody td img { cursor: pointer; }
+
+table.cuotas tbody td ul {
+	list-style:none;
+	position: relative;
+	/*left: -150px;*/
+}
+
+table.cuotas tbody td ul li {
+	display: block;
+	clear: both;
+	
+}	
+
+table.cuotas tbody td ul li strong {
+	float: left;
+}
+
+table.cuotas tbody td ul li span {
+	float: right;
+}
+
+
+table.cuotas th.derecha_fino, table.cuotas td.derecha_fino {
+	border-right: solid 1px #666 !important;
+}
+
+table.cuotas th.izquierda_fino, table.cuotas td.izquierda_fino {
+	border-left: solid 1px #666 !important;
+}
+
+
+table.cuotas th.derecha, table.cuotas td.derecha {
+	border-right: solid 2px #666 !important;
+}
+
+table.cuotas th.izquierda, table.cuotas td.izquierda {
+	border-left: solid 2px #666 !important;
+}

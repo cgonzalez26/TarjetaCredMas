@@ -1,0 +1,1069 @@
+* {margin: 0; padding: 0}
+
+body { 
+	font-size: 11pt; 
+	font-family: "Times New Roman",Tahoma,sans; 
+	text-align:center;
+	background-color:#727878;/*727878*/	
+	width:100%;
+	height:100%;
+}
+
+a { font-family:Tahoma;font-size:12px;underline:none; color: #336699; }
+a:hover { color: #FFBB00; }
+a:visited { color: #336699; }
+
+div.clear { clear: both; height: 1px; }
+div.espacio { height: 10px; }
+
+span.espacioMio { display: block; height: 20px; }
+
+img { border: 0; }
+
+div#BODY { width:910px; margin:5px auto; /*padding: 5px;*/ background:#727878; border:0px solid #ccc;}
+
+div#BODY div.cabecera { font-size: 10pt; margin: 0px; background: #727878; width:60%; height:40px;}
+
+div#BODY div.cuerpo { margin: 30px auto 20px; text-align: left;	padding: 15px; background:#FFFFFF; width:80%;}
+
+/*-----------------------Para el Form --------------------------------------------------------*/
+
+form.centerForm {display: block; margin: 15px auto; width: 600px; }
+form.centerForm fieldset {border:0; padding: 10px 0; margin-bottom: 20px }
+
+form.centerForm fieldset.border { /*border: solid 1px#F5F5F5;*/ background-color: #f0f0f0; /*margin-bottom: 40px;*/ margin-bottom: 20px; /*margin-top: 1px;*/}
+
+form.centerForm span.title {  float:left;border: solid 1px #CCC; padding: 5px; background-color: #FFF;  font-weight: bold; }
+
+form.centerForm fieldset.border legend { border: solid 1px #CCC; padding: 4px; background-color: #FFF; }
+
+form.centerForm div label {color: #666; font-weight: bold; text-align: left; line-height: 20px }
+
+form.centerForm div label.middle { color: #666; font-weight: bold; float: left; width: 180px; text-align: left; padding-left: 50px; line-height: 20px }
+
+form.centerForm div { padding: 9px 0; /*padding-right: 10px*/ }
+
+form div.division, form span.division  { height: 1px; border-top: solid 1px #DDD; margin: 15px 15px 0px; display: block; }
+
+form div.buttons{ border-top: solid 1px #CCC; text-align: center; padding: 25px 0 15px; margin-top: 15px  }
+form div.buttons button { width: 120px; line-height: 20px; margin: 0 20px }
+form div.error {text-align:center; color: #F00; font-weight: bold; padding-bottom: 15px }
+
+
+/****----------------------------------------------------------------------------------------------------------------------****/
+
+fieldset {
+	border: 1px solid #CCC;
+}
+
+table.tableChica{
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+table.tableChica th{
+	height:30px;
+	background:#F0F0F0;
+	border-left:1px solid #FFF;
+	border-right:1px solid #CCC;
+}
+
+table.tableChica a{
+	color: #FFBB00;
+}
+
+
+table.tableChica a:hover{
+	color: #336699;
+}
+
+
+
+form ul {
+
+	display: block;
+	padding: 0; 
+	list-style: none; 
+	/*overflow-x: hidden; 
+	overflow-y: scroll; */
+	border: inset 0px ActiveBorder; 
+	white-space: nowrap;
+	margin-bottom: 5px;
+	text-align:left;
+}
+
+form ul.errores {	
+	color: #F00;
+	font-size: 10pt;
+	margin: 10px auto;
+	
+	background-color: #FFF;
+	padding: 0;
+	padding-left: 5px;
+	/*border-bottom: solid 1px #EEE;*/
+	text-align: left;		
+}
+
+form ul.errores li { padding: 5px 0; }
+
+form.FormGeneric{ margin: 15px auto; width:700px; }
+
+form.FormGeneric select{ width: 150px; height:25px; }
+
+form.FormGeneric input{	font-family: Tahoma; font-size:11px;height:18px;}
+
+form.FormGeneric table.Formulario{ width: 600px; }
+
+form.FormGeneric table.Formulario th{
+	text-align:right;
+	width: 100px;
+	/*font-weight:bold;*/
+	font-family: tahoma,Times New Roman,Tahoma;
+	color: #424242;
+	font-size:10px;
+}
+
+
+form.FormGeneric input[type=text]{	
+	font-family: Tahoma; font-size:11px;height:18px;
+	height:22px;
+	border:1px solid #CCC;
+	/*background:#FFF;*/
+	color:#000;
+	padding-top:6px;
+	padding-left:5px;
+	background: #FFFFFF url(../images/backgroundInputText.gif) repeat-x;	
+}
+
+form.FormGeneric input[type=password]{	
+	font-family: Tahoma; font-size:11px;height:18px;
+	height:22px;
+	border:1px solid #CCC;
+	/*background:#FFF;*/
+	color:#000;
+	padding-top:6px;
+	padding-left:5px;
+	background: #FFFFFF url(../images/backgroundInputText.gif) repeat-x;	
+}
+
+form.FormGeneric input[type=submit]{	
+	height:30px;	
+	color:#000;
+	/*background: #FFFFFF url(../images/btn_13.png) repeat-x;*/
+	border-left: 1px solid #a8a8a8;
+	border-top: 1px solid #a4a4a4;
+	border-bottom: 1px solid #F5F5F5;
+	border-right: 1px solid #a4a4a4;
+	
+}
+
+form.FormGeneric table.Formulario td{
+	text-align:left;		
+	font-family: Sans,Times New Roman,Tahoma;
+	font-size:11px;
+	
+}
+
+
+.TituloFormulario{
+	background: url(../images/searchProvincias.png) no-repeat;
+	text-align:left;		
+	font-family: Sans,Times New Roman,Tahoma;
+	font-size:11px;	
+	border-bottom: 1px solid #CCCCCC;
+}
+
+/*------------------------------------------------------------*/
+
+/*Estilo para Tablas*/
+
+table.Lista{
+	/*border: 1px solid #CCC;*/
+	width:860px;
+	text-align:center;
+	font-family:Tahoma;
+	background:#FFFFFF;
+}
+
+table.Lista th{
+	background:#F0F0F0;
+	font-family:Times New Roman;
+	font-size: 11px;
+	text-align:center;	
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 30px;
+	padding:0px;
+	margin:0px;	
+}
+
+table.Lista td{	
+	font-family: Tahoma,Times New Roman;
+	font-size: 11px;	
+	padding: 2px;
+	line-height: 20px;
+}
+
+
+table.Lista tbody{
+	background:#FFFFFF;
+	/*height: 25px;*/
+	overflow:auto;
+}
+
+table.Lista a{
+	color: #FFBB00;
+}
+
+
+table.Lista a:hover{
+	color: #336699;
+}
+
+div#DivLista{		
+	height:250px;	
+	width:760px;	
+	overflow: auto;	
+	background: #FAFAFA;
+	text-align: center;	
+}
+
+
+
+table.Ficha{
+	/*border: 1px solid #CCC;*/
+	width:760px;
+	text-align:center;
+	/*margin-right:120px;*/
+	font-family:Tahoma;
+	background:#FFFFFF;
+}
+
+table.Ficha th{
+	/*background:#F0F0F0;-*/
+	font-family: Tahoma,Times New Roman;
+	font-size: 11px;
+	text-align:right;	
+	
+	/*border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;*/
+	line-height: 20px;
+	padding:4px;
+	margin-right:4px;	
+}
+
+table.Ficha td{	
+	font-family: Tahoma,Times New Roman;
+	text-align:left;
+	font-size: 11px;		
+	padding:2px;
+	
+	line-height: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+
+/*table.Ficha tbody{
+	background:#FFFFFF;
+	/*height: 25px;*/
+	/*overflow:auto;
+}*/
+
+table.Ficha a{
+	color: #FFBB00;
+}
+
+
+table.Ficha a:hover{
+	color: #336699;
+}
+
+
+
+table.Provincias{
+	width:600px;
+	text-align:center;
+	font-family:Tahoma;
+	background:#FFFFFF;
+}
+
+table.Provincias th {
+	background:#F0F0F0;
+	text-align:center;
+	font-family: Times New Roman;
+	font-size: 11px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 20px;
+	padding:4px;
+	margin-right:4px;	
+}
+
+table.Provincias td{
+	background:#FFFFFF;
+	font-family: Tahoma,Times New Roman;
+	font-size: 11px;	
+/*	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;	*/
+}
+
+table.Provincias a{
+	color: #FFBB00;
+}
+
+
+table.Provincias a:hover{
+	color: #336699;
+}
+
+/**-----------------clases generales---------------------*/
+
+.Prohibited{	
+	background: #FFFFFF url(../images/userb.png) no-repeat;
+	text-align:center;
+	margin-top:0px;
+	margin-left:3px;
+	padding-left:3px;
+	
+}
+
+.Allowed{	
+	background: #FFFFFF url(../images/userh.png) no-repeat;
+	
+	text-align:center;	
+	/*display: block;*/
+	/*margin: auto;*/
+	padding-left:auto;	
+}
+
+.borde_aba_der{
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+.borde_aba{
+	border-bottom: 1px solid #CCC;
+}
+
+
+/*--------------Stylo para Filtros-------------------*/
+
+div#Filtro{
+	width:860px;
+	text-align:left;
+}
+
+div#Filtro fieldset{
+	border-top: 0px solid #CCCCCC;
+	border-right: 0px solid #CCCCCC;
+	border-bottom: 0px solid #CCCCCC;
+	border-left: 0px solid #CCCCCC;
+	
+	
+	
+}
+
+div#Filtro legend{
+	font-family: Tahoma,Times New Roman, Tahoma;
+	font-size: 11px;
+	margin-left: 5px;		
+	color:#000;
+}
+
+div#Filtro table.tableFiltro{
+	font-family: Tahoma,Times New Roman;	
+	font-size: 11px;
+	margin-left: 5px;		
+	border:1px solid #CCCCCC;
+	width:840px;
+}
+
+
+/*----------------Stylo para el Titulo de Sector----------------------*/
+
+.tableTitulo{
+	width:880px;
+	text-align:left;
+	border-bottom: 2px solid #F5F5F5;	
+	/*border-left: 4px solid #F5F5F5;	*/
+}
+
+.tituloSector{
+	font-family: Times New Roman,Tahoma;	
+	font-style: italic;
+	font-size: 18px;
+	margin-left: 65px;		
+	color:#424242;
+	font-weight:bold;
+	
+}
+
+/*------------------------------------------------------------*/
+
+.Denegados{
+	font-family: Times New Roman;	
+	font-size: 11px;
+	margin-left: 5px;		
+	color:#000;/*990000*/
+	font-weight:bold;
+}
+
+.Habilitados{
+	font-family: Times New Roman;	
+	font-size: 11px;
+	margin-left: 5px;		
+	color:#000;
+	font-weight:bold;
+}
+
+/*-----Div para mostrar espacio en blanco-----*/
+div.clear { clear: both; height: 1px; }
+div.espacio { height: 10px; }
+
+
+/*-------Estilo para el menu del usuarios-------*/
+
+table#userMenu {
+	border-collapse: collapse;
+	width: 910px;
+	margin: 40px auto 15px;
+}
+
+table#userMenu thead th {
+	
+	background-color: #F5F5F5;	/*E5E5E5*/
+	/*border: solid 1px #999;*/
+	color: #333;
+	padding: 10px 5px;
+	cursor: pointer;
+	font-weight: normal;
+	font-size: 8pt;
+	
+	/*my*/
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #CCC;
+	
+}
+table#userMenu thead th.selected {
+	border-bottom: 0;	
+	/*background-color: #fff;*/
+	font-weight: bold;	
+	background: url(../images/MenuSelected.png) repeat-x;
+}
+
+
+table#userMenu tbody td {
+
+	padding: 15px;
+	border: solid 0px #999;
+	border-top: 0;
+	text-align: left;
+	/*background-color: #F5F5F5;*/
+	background: url(../images/MenuSelectedtd.png) repeat-x;
+	
+}
+
+table#userMenu tbody td div { display: none; }
+
+table#userMenu tbody td div.selected { display: block; }
+
+table#userMenu tbody td a {
+	color: #333;
+	text-decoration: none;
+	margin: 0 5px;
+	font-size: 8pt;
+	word-spacing: 2px;
+	font-family: Times New Roman;
+}
+
+table#userMenu tbody td a:hover {
+	text-decoration: underline;
+}
+
+
+table#userMenu tbody td a.selected {
+	color: #333;
+	font-weight: bold;
+}
+
+table#userMenu tbody td a.selected:hover {
+	text-decoration: none;
+}
+
+/*-----------Iconos del Titulo de Sector--------------*/
+
+.iconoUsuarios{
+	background:url(../images/iconoUsuarios.png) no-repeat;
+	text-align:left;	
+}	
+.iconosReglas{
+	background:url(../images/iconosReglas.png) no-repeat;
+	text-align:left;	
+}
+
+.iconosOficinas{
+	background:url(../images/iconosOficinas.png) no-repeat;
+	text-align:left;	
+}
+
+.iconosSucursales{
+	background:url(../images/iconosSucursales.png) no-repeat;
+	text-align:left;	
+}
+
+.iconosProvincias{
+	background:url(../images/iconosProvincias.png) no-repeat;
+	text-align:left;	
+}
+
+.iconosLocalidades{
+	background:url(../images/iconosProvincias.png) no-repeat;
+	text-align:left;	
+}
+.iconosCobranzas{
+	background:url(../images/iconosCobranzas.png) no-repeat;
+	text-align:left;	
+}
+.iconosEmpresas{
+	background:url(../images/iconosEmpresas.png) no-repeat;
+	text-align:left;	
+}
+
+.iconosTiposIvas{
+	background:url(../images/iconosTiposIvas.png) no-repeat;
+	text-align:left;	
+}
+.iconosCajas{
+	background:url(../images/iconosCajas.png) no-repeat;
+	text-align:left;	
+}
+.iconosPagos{
+	background:url(../images/iconosPagos.png) no-repeat;
+	text-align:left;	
+}
+.iconosAccesos{
+	background:url(../images/iconosAccesos.png) no-repeat;
+	text-align:left;	
+}
+.iconosTablas{
+	background:url(../images/iconosTablas.png) no-repeat;
+	text-align:left;	
+}
+
+
+/*----------Mensajes de Alerta y otros-----------------------*/
+.fuente {
+	background: #F7F9E5 url(images/via.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #DBDCCD;
+	border-bottom: 2px solid #DBDCCD;
+	color:#000000;
+	font-family:Tahoma;
+	font-size:11px;
+	line-height:30px;
+}
+
+.info {
+	background: #E7F9F8 url(images/info.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #B5D4FE;
+	border-bottom: 2px solid #B5D4FE;
+	color:#000000;
+	font-family:Tahoma;
+	font-size:11px;
+	line-height:30px;
+}
+
+.importante {
+	background: #FDD1C5 url(images/importante.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #FBAB95;
+	border-bottom: 2px solid #FBAB95;
+	color:#000000;
+	font-family:Tahoma;
+	font-size:11px;
+	line-height:30px;
+}
+
+
+/*----------------------Estilo para paginacion ----------------------*/
+div.pagging {
+	width: 860px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px 0;
+	border-top: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+	background-color: #FFF;
+	line-height: 30px !important;
+	
+	
+}
+
+div.pagging a {
+	margin: 5px 5px;
+	color: #333;	
+	font-size: 9pt;
+	font-family: Times New Roman ;
+}
+
+div.pagging a.selected {
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+div.pagging a.anterior { margin-right: 20px }
+div.pagging a.siguiente { margin-left: 20px }
+
+/*------------------------------------------------------------*/
+
+.botonNuevo{
+	text-align:right;
+	margin-right:15px;
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+
+/*------------------------------------------------------------*/
+
+.LetraTipoPermisos{
+	font-family:Tahoma;
+	font-size:11px;
+	text-transformation : first-upper;
+}
+
+.tableIzquierda{
+	/*width:100%;*/
+	text-align:left;
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+	margin-left:20px;
+}
+
+.LetraNormal{
+	font-family:Tahoma;
+	font-size:11px;	
+	margin-left:5px;
+}
+
+.LetraChica{
+	font-family:Tahoma;
+	font-size:10px;	
+	margin-left:5px;
+}
+
+
+div#titleAditional{
+	font-family: Times New Roman;
+	font-size: 13px;
+	font-weight: bold;
+	font-style: italic;	
+	text-align: left;
+	height: 40px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+div#titleAditional span{
+	color:#990000; 
+}
+
+
+table.Cobranzas{
+	width:880px;	
+}
+
+table.ListaCobranzas{
+	/*width: 700px;*/
+	font-family:Tahoma;
+	font-size:11px;
+	/*border: 1px solid #CCC;*/
+}
+
+table.ListaCobranzas th{	
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #CCC;
+	background:#F0F0F0;
+	height:30px;
+}
+
+table.ListaCobranzas td{	
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	background:#FFF;
+	height:30px;
+	font-size:11px;
+	font-family:Tahoma;
+}
+
+span.moneda{
+	color: #990000;
+	font-weight:bold;
+	font-weight:bold;
+}
+
+table.titleCaja{
+	width:700px;
+	border: 0px solid #FFF;
+}
+
+table.titleCaja td{
+	font-family:Tahoma,Times New Roman;
+	font-size:11px;
+	height:25px;	
+}
+
+table.titleCaja td span{
+	/*border-bottom:1px solid #CCC;*/
+	margin-top:5px;
+	font-size:13px;
+}
+
+table.titleCajaOperarios{
+	/*width:450px;*/
+	font-family:Tahoma,Times New Roman;
+	
+	/*border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;*/
+	
+}
+
+table.titleCajaOperarios th{	
+	font-size:11px;
+	height:25px;
+	text-align:right;
+	margin-right:10px;		
+}
+
+table.titleCajaOperarios td{	
+	font-size:11px;
+	height:25px;	
+	text-align:left;
+	/*border-bottom:1px solid #a4a4a4;*/
+}
+
+table.titleCajaOperarios td.LetraChica{
+	font-family:Tahoma,Times New Roman;
+	font-size:10px !important;
+}
+
+table.titleCajaOperarios td span{
+	/*border-bottom:1px solid #CCC;*/
+	margin-top:5px;
+	font-size:13px;
+}
+
+.TituloFormPago{
+	background:url(../images/iconosCobranzas24.png) no-repeat;
+	text-align:left;
+	font-family:Times New Roman,Tahoma;
+	font-size:12px;	
+	height:24px;
+	border-bottom:1px solid #CCC;
+}
+
+.TituloFormPago span{
+	margin-left:30px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.button{
+	width:120px;
+	height:25px;
+}
+
+table.addMovimiento{
+	width:400px;
+	text-align:left;
+	font-family:Tahoma,Times New Roman;
+	font-size:11px;
+	/*border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;*/
+	/*background:#F5F5F5;*/
+}
+
+table.searchPago{
+	width:880px;
+	text-align:left;
+	font-family:Tahoma,Times New Roman;
+	font-size:11px;
+	/*border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;*/
+	/*background:#F5F5F5;*/
+}
+
+table.FormaCobranzas{
+	width:450px;
+}
+
+span.titleCobranza{
+	width:340px;
+	margin:5px;	
+	padding:5px;
+	/*background:#F5F5F5;*/
+	font-family:Tahoma;	
+	/*font-weight:bold;*/
+	font-size:11px;
+	/*border-bottom:1px solid #CCC;*/
+}
+
+table.tableRelations{
+	font-family:Tahoma;
+	font-size:11px;
+	
+}
+
+table.tableRelations fieldset{
+	border: 1px solid #CCC;
+	
+}
+
+table.tableInformation{
+	width:450px;
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+table.tableInformation th{
+	height:25px;
+}
+
+table.tableInformation td{
+	height:25px;
+	border-bottom:1px solid #CCC;
+	text-align:left;
+}
+
+table.tableInformation td.LetraBig{
+	font-family: Times New Roman;
+	height:25px;
+	font-size:18px;
+	border-bottom:0px solid #FFF !important;
+	text-align:left;
+}
+
+
+
+/*------------------------------MENU--------------------------------*/
+/*
+ menu styles
+ note: not all browsers render styles the same way so try out your style sheet
+ in different browsers before publishing
+*/
+
+/* level 0 inner */
+.m0l0iout {
+	font-family: Times New Roman,sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 11px;
+	text-decoration: none;
+	margin: 4px 0 0 8px;
+	color: #000;
+}
+.m0l0iover {
+	font-family: Times New Roman, sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 11px;
+	text-decoration: underline;
+	margin: 5px 0 0 8px;
+	color: #000;
+}
+
+/* level 0 outer */
+.m0l0oout {
+	text-decoration : none;
+	/*background-image: url(img/lev0_bg1.gif);*/
+	/*border: 1px solid #336699;*/
+	/*background-color: #F5F5F5;*/
+}
+.m0l0oover {
+	text-decoration : none;
+	background-image: url(img/lev0_bg2.gif);
+	/*background-color: #2C5F93;*/
+	border: 1px solid #F5F5F5;
+}
+
+/* level 1 inner */
+.m0l1iout {
+	font-family: Times New Roman,sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 11px;
+	margin: 4px 0 0 10px;
+	color: #000;
+}
+.m0l1iover {
+	font-family: Times New Roman,sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 11px;
+	margin: 4px 0 0 17px;
+	color: #000;
+}
+
+/* level 1 outer */
+.m0l1oout {
+	text-decoration : none;
+	background-color: #F0F0F0;
+	/*border: 1px solid #336699;*/
+	padding: 0;
+}
+.m0l1oover {
+	text-decoration : none;
+	background-color: #F0F0F0;
+	background-image: url(img/lev1_arrow.gif);
+	background-repeat: no-repeat;
+	/*border: 1px solid #336699;*/
+	padding: 0;
+}
+
+.addresPath{
+	background: url(../images/home.png);
+	background-repeat: no-repeat;
+	/*border-bottom: 1px solid #F5F5F5;*/
+	height: 25px;
+	width:890px;
+	text-align:left;
+	font-family:Tahoma;
+	font-size:11px;
+	
+}
+
+table.PagosClientes{
+	font-family:tahoma;
+	font-size:11px;
+	color:#000;	
+	background:#F5F5F5;
+}
+
+table.PagosClientes body{
+	background: #F5F5F5;
+	width:550px;
+	height:100px;
+	overflow: auto
+}
+
+table.PagosClientes th{
+	text-align:center;
+	height:30px;
+	background:#F0F0F0;
+	border-left:1px solid #FFF;
+	border-right:1px solid #CCC;
+}
+
+table.PagosClientes td{	height:30px; border-bottom:1px solid #CCC;border-right:1px solid #CCC;background:#FFF;text-align:center;}
+
+fieldset.FichaCliente {
+	border: 1px solid #CCC;
+	/**background:#F5F5F5;*/
+}
+
+fieldset.FichaCliente legend{
+	font-family:Tahoma;
+	font-size:11px;	
+	background:url(../images/ficha.png) no-repeat;
+	line-height:32px;
+}
+
+fieldset.FichaCliente legend span{
+	margin-left:40px;
+}
+
+div.Tab{
+	text-align:left;
+	font-family:Tahoma;
+	font-size:11px;
+	background:#F5F5F5;
+	border-top:1px solid #CCC;
+	/*border-left:1px solid #CCC;*/
+	border-right:1px solid #CCC;
+	height:25px;
+}
+
+table.tableAnulaciones{
+	font-family:Tahoma;
+	font-size:11px;	
+	width:460px;
+}
+
+table.tableAnulaciones th{
+	text-align:center;	
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #CCC;
+	background:#F0F0F0;
+	height:30px;	
+}
+
+table.tableAnulaciones td{
+	height:30px;
+}
+
+
+/*******************************************************************************/
+div.classCabeceraListado{ font-size: 10pt; /*margin: 5px;*/ background: url(../images/Encabezado.jpg) no-repeat; width:700px; height:100px;}
+/*--------IMPRESION---------------------------------------------------------------------------------------------*/
+div#impresiones { display: none; }
+
+ @media print {
+   
+    
+    
+	div#impresiones {
+
+		display: block;
+		width: 98%;				
+		margin:0px;
+		padding:0px;
+		text-align:center;
+	}			
+	
+	div#cabecera{ display: none; }	
+	div#BODY{ display: none; }	
+	div#idConfArticulos{ display: none; }	
+	div#idConfPrecios{ display: none; }		
+    div#idComparativas{ display: none; }
+    div.dhtmlxWindowMainContent{display: none;}	
+    div.dhtmlx_wins_body_content{display: none;}	
+}	
+
+td{font-family:Tahoma;}
+th{font-family:Tahoma;}
+
+/***********************************************/
+ul.sidemenu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	border-bottom: 1px solid #6F3E04;
+	width: 100px;
+	background-color: #EEEEDC;
+}
+
+ul.sidemenu li {
+	border-top: 1px solid #6F3E04;
+	border-left: 1px solid #6F3E04;
+	border-right: 1px solid #6F3E04;
+}
+
+ul.sidemenu li a {
+	text-decoration: none;
+	display: block;
+	width: 78px;
+	color: #333333;
+	font-weight: bold;
+	padding: 2px 10px;
+}
+
+ul.sidemenu li a:hover {
+	background-color: #B9BB79;
+	color: #EEEEDC;
+}

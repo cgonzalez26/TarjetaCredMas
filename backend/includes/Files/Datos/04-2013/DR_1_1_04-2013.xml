@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+          <!--Este  es un ejemplo para crear un archivo xml con php-->
+           <resumen>
+       			<idGrupoAfinidad>1</idGrupoAfinidad>
+				<idCuentaUsuario>1</idCuentaUsuario>
+				<idModeloResumen>1</idModeloResumen>
+				<sNumeroCuentaUsuario>0100001</sNumeroCuentaUsuario>
+				<dPeriodo>2013-04-01 00:00:00</dPeriodo>
+				<dFechaCierre>22/04/2013</dFechaCierre>
+				<dFechaVencimiento>10/05/2013</dFechaVencimiento>
+				<dFechaCierreSiguiente>22/05/2013</dFechaCierreSiguiente>
+				<dFechaVencimientoSiguiente>10/06/2013</dFechaVencimientoSiguiente>
+				<dFechaInicio>19/01/2013</dFechaInicio>
+				<fSaldoAnterior>210.00</fSaldoAnterior>
+				<sTitular><![CDATA[ELENA PEREZ]]></sTitular>
+				<sEstado>NORMAL</sEstado>
+				<sDomicilio><![CDATA[Calle:LAMADRID 308, Nro:, Barrio:VILLA CRISTINA<br>Salta, SALTA, 4400]]></sDomicilio>
+				<fTotalResumen>281.00</fTotalResumen>
+				<fLimiteCredito>3500.00</fLimiteCredito>
+				<fLimiteCompra>3500.00</fLimiteCompra>
+				<fLimiteAdelanto>1400.00</fLimiteAdelanto>
+				<fRemanenteCredito>3100.00</fRemanenteCredito>					
+				<fRemanenteCompra>3400.00</fRemanenteCompra>					
+	    		<fRemanenteAdelanto>1400.00</fRemanenteAdelanto>
+	   		   	<detalle>
+	   		   		<idDetalle>9</idDetalle>
+	   		   		<tipoOperacion>1</tipoOperacion>
+	   		   		<sDescripcion><![CDATA[GRIVA SRL]]></sDescripcion>
+	   		   		<idComercio>1</idComercio>
+	   		   		<idPlan>1</idPlan>
+	   		   		<sSucursal>CENTRAL SALTA</sSucursal>
+	   		   		<dFechaOperacion>22/01/2013</dFechaOperacion>
+	   		   		<sNumeroCuota>3</sNumeroCuota>
+	   		   		<sCantidadCuota>6</sCantidadCuota>
+	   		   		<sNumeroCupon>10001</sNumeroCupon>
+	   		   		<fImporte>100.00</fImporte>
+	   		   	</detalle>
+	   		   	
+	   		   	<detalle>
+	   		   		<idDetalle>2</idDetalle>
+	   		   		<tipoOperacion>3</tipoOperacion>
+	   		   		<sDescripcion><![CDATA[INTERES]]></sDescripcion>
+	   		   		<idComercio>0</idComercio>
+	   		   		<idPlan>0</idPlan>
+	   		   		<sSucursal>CENTRAL SALTA</sSucursal>
+	   		   		<dFechaOperacion>19/01/2013</dFechaOperacion>
+	   		   		<sNumeroCuota>1</sNumeroCuota>
+	   		   		<sCantidadCuota>1</sCantidadCuota>
+	   		   		<sNumeroCupon></sNumeroCupon>
+	   		   		<fImporte>21.00</fImporte>
+	   		   	</detalle>
+	   		   	
+	   		   	<detalle>
+	   		   		<idDetalle>2</idDetalle>
+	   		   		<tipoOperacion>4</tipoOperacion>
+	   		   		<sDescripcion><![CDATA[COBRANZA]]></sDescripcion>
+	   		   		<idComercio>0</idComercio>
+	   		   		<idPlan>0</idPlan>
+	   		   		<sSucursal>CENTRAL SALTA</sSucursal>
+	   		   		<dFechaOperacion>19/04/2013</dFechaOperacion>
+	   		   		<sNumeroCuota>1</sNumeroCuota>
+	   		   		<sCantidadCuota>1</sCantidadCuota>
+	   		   		<sNumeroCupon></sNumeroCupon>
+	   		   		<fImporte>50.00</fImporte>
+	   		   	</detalle>
+	   		   	</resumen>

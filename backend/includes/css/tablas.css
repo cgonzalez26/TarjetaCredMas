@@ -1,0 +1,128 @@
+table.cajas thead th {
+background-color: #EEE;
+border: solid 1px #AAA;
+
+}
+
+
+table.cajas tbody td,  table.cajas tbody th{
+	border: solid 1px #CCC;
+}
+
+
+table.cajas img { cursor: pointer !important; }
+
+table.cajas {
+
+	width: 80%;
+	margin: 25px auto;
+	text-align: center;
+	border-collapse: collapse;
+	border: solid 2px #666;
+	
+}
+
+table.cajas th, table.cajas td {
+padding: 15px 10px; 
+}
+
+
+
+
+table.polizas {
+
+	border-collapse: collapse;
+	margin: 25px auto;
+	width: 650px;
+	border: solid 1px #BBB;
+}
+
+
+table.polizas caption {
+
+	width: 650px;
+	
+	margin: 0 auto;
+}
+
+
+table.polizas thead tr th {
+
+	border: solid 1px #AAA;
+	background-color: #EFEFEF;
+	padding: 5px 10px;
+}
+
+table.polizas thead tr.subtitulo th {
+	font-weight: normal;
+}
+
+
+table.polizas tbody td {
+
+	border: solid 1px #CCC;
+	border-bottom: solid 1px #AAA;
+	padding: 3px 5px;
+}
+
+/*-----------------------------------------------*/
+	
+table.suavizar {
+		border-spacing: 1;
+		border: solid 0px #CCC;
+		background-color: #AA9FAA;		
+		font-size: 8pt;
+		/*width: 150px;*/
+	}
+	
+table.suavizar th {
+		background-color: #FCEFFF;
+	}
+
+
+table.suavizar tr {
+		background-color: white;
+	}
+
+table.suavizar td {
+		background-color: white;
+	}
+
+/*-----------------------------------------------*/
+	
+
+table.suavizar2 {
+		border-bottom: solid 1px #94217a;
+		border-spacing: 1;
+		border: solid 0px #CCC;
+		background-color: #AA9FAA;		
+		font-size: 7pt;
+	}
+	
+table.suavizar2 th {
+		background-color: #EFEFEF;
+	}
+
+	
+/*-----------------------------------------------*/
+
+table.suavizar3 {
+		border-spacing: 1;
+		border: solid 0px #CCC;
+		background-color: #AA9FAA;		
+		font-size: 7pt;
+
+	}
+
+table.suavizar3 th {
+		background-color: #EFEFEF;
+		
+	}
+	
+table.suavizar3 th.blanco,td.blanco {
+		background-color:#FFFFFF;
+		/*border-top:solid 1px #000000 ;*/
+		border:solid 1px #CCC;
+		height:20px;
+	}
+

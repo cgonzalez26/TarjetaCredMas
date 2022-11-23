@@ -1,0 +1,519 @@
+/** {margin: 0; padding: 0}*/
+
+body { 
+	font-size: 11px; 
+	font-family: Verdana,Tahoma,Arial , Helvetica, sans-serif; 
+	text-align:center; 
+	background-color:#FFF;/*727878*/ 
+	width:100%; 
+	height:100%; 
+	Overflow-x:hidden;
+	margin: 0; padding: 0;
+}
+
+p,td{
+	font-size: 11px; 
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color: #000000;
+	left: 0;	
+}
+/*a { font-family:Tahoma;font-size:12px;underline:none; color: #336699; }
+a:hover { color: #FFBB00; }
+a:visited { color: #336699; }*/
+
+img { border: 0; }
+
+div#BODY { margin:auto;background:#FFFFFF}
+
+div#BODY div.cabecera { height:120px;}
+div#BODY div.cabeceraInternal { height:105px;}
+
+div#BODY div.botonera { height:39px;}
+div#BODY div.botoneraInternal { height:18px;}
+div#BODY div.cuerpo {  height:285px;}
+div#BODY div.contenido {  padding:10px 10px 10px 10px;}
+div#BODY div.footPage { height:75px;}
+div.foot { font-family:Verdana;font-size:10px;color:#FFFFFF; text-decoration:none}
+
+div#idLogo{margin:0px;padding:0px;width:300px;height:100px;float:left; z-index:10000000 !important;background:url(../images/tenelo-header.jpg) no-repeat;}/* */
+
+a.linkFooter { font-family:Verdana;font-size:10px;color:#FFFFFF; text-decoration:none }
+a.linkFooter:hover { font-family:Verdana;font-size:10px;color:#000000; text-decoration:none}
+/*a.linkFooter:visited { font-family:Verdana;font-size:10px;color:#000000;text-decoration:none }*/
+
+
+a.linkLogout { font-family:Verdana;font-size:11px;color:#FFF;text-decoration:none;font-weight:bold}
+a.linkLogout:hover { font-family:Verdana;font-size:11px;color:#FFF;text-decoration:none;font-weight:bold}
+a.linkLogout:visited { font-family:Verdana;font-size:11px;color:#FFF;text-decoration:none;font-weight:bold}
+
+
+a.linkSitio { font-family:Verdana;font-size:11px;color:#000;text-decoration:none;font-weight:bold; }
+a.linkSitio:hover { font-family:Verdana;font-size:11px;color:#000;text-decoration:none;font-weight:bold; }
+a.linkSitio:visited { font-family:Verdana;font-size:11px;color:#000;text-decoration:none;font-weight:bold; }
+
+
+a.linkHome { font-family:Verdana;font-size:13px;color:#000;text-decoration:none;font-weight:bold; }
+a.linkHome:hover { font-family:Verdana;font-size:13px;color:#000;text-decoration:none;font-weight:bold; }
+a.linkHome:visited { font-family:Verdana;font-size:13px;color:#000;text-decoration:none;font-weight:bold; }
+
+.content{
+	font-family:Verdana;
+	font-size:10px;
+    color:#00000;
+}
+.contentBordo{
+	font-family:Verdana;
+	font-size:11px;
+    color:#ca2125;
+}
+
+.txtLogin{
+	width:155px;
+	height:16px;
+	border:1px solid #000000;
+}
+.Titulo{
+	font-family:Verdana;
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+}
+.subTitulo{
+	background:#FAA606;/*background:#E3C8F4;*/
+	font-family:Verdana;
+	color:#000;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+/*:::IMPRESION*/
+div#impresiones { display: none; }
+div#impresionesCobranza { display: none; }
+@media print {
+
+	div#BODY {display: none;}
+
+	div#impresiones {	
+		display: block;
+		width: 100%;
+	}
+	
+	div#impresionesCobranza{	
+		display: block;
+		width: 100%;
+	}
+	
+	
+	/*div#impresiones .mas{background-color:#CCCCCC;}
+	div#impresiones table.formulario th{
+		background-color:#CCCCCC;
+	}*/
+}
+
+table#TablaGeneral{
+	font-family:Tahoma;
+	font-size:12px;
+	/*background:#FFF url(../includes/images/bg_lines.gif) repeat-x;*/
+}
+
+/*
+table.TablaGeneral td.borde
+{
+	border: 1px solid #CCC;
+}*/
+
+/*Estilo para Tabla en General*/
+table.TablaGeneral{
+	font-family:Tahoma;
+	font-size:12px;
+	/*background:#FFF url(../includes/images/bg_lines.gif) repeat-x;*/
+}
+
+table.TablaGeneral tr.filaPrincipal th.borde{
+	font-family:Tahoma;
+	font-size:12px;	
+	background:#CCC;
+	border: 1px solid #CCC;
+	/*background:#FFF url(../includes/images/bg_lines.gif) repeat-x;*/
+}
+
+fieldset .TablaGeneral{
+	font-family:Tahoma;
+	font-size:12px;
+	/*background:#FFF url(../includes/images/bg_lines.gif) repeat-x;*/
+}
+
+fieldset .TablaGeneral th{
+	font-family:Tahoma;
+	font-size:12px;
+	text-align:right;
+	/*background:#FFF url(../includes/images/bg_lines.gif) repeat-x;*/
+}
+
+fieldset .TablaGeneral td span{
+	font-family:Tahoma;
+	font-size:12px;
+	text-align:left;
+	padding-left:10px;
+}
+
+
+table .TablaGeneral td div#sCodigo{
+	text-align:left;
+	font-size:18px;
+	font-weight:bold;
+}
+.FormTextBox{
+	width:200px;
+}
+
+
+/**********  CRISTIAN     **********/
+	/* Color de Fila segun el Estado  */
+	.rojo{   /* Baja */
+	color:#FF0000;
+	font-weight:bold;
+	}
+	.azul{  /* Cambio de Clave */
+	color:#229AF1;
+	font-weight:bold;
+	}
+	.naranja{ /* Suspendidos */
+	color:#EB7D25;
+	font-weight:bold;
+	}
+
+
+fieldset legend {
+    border: 1px solid #DDDDDD;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.8;
+    padding: 10px;
+}
+/*****************************/
+
+table.TablaCalendario{
+	font-family:Tahoma;
+	font-size:12px;
+	border-collapse:collapse;
+}
+table.TablaCalendario tr.filaPrincipal th.borde{
+	font-family:Tahoma;
+	font-size:12px;	
+	background:#CCC;
+	border: 1px solid #000;
+	/*background:#FFF url(../includes/images/bg_lines.gif) repeat-x;*/
+}
+
+table.TablaCalendario tr td,th{
+	font-family:Tahoma;
+	font-size:12px;	
+	border: 1px solid #CCC;
+}
+
+table.TablaCalendario tr td input.textTabla{
+	border:0px
+}
+
+/*****************************/
+.TablaImpresion{
+	font-family:Arial;
+	font-size:9px;
+	/*background:#FFF url(../includes/images/bg_lines.gif) repeat-x;*/
+}
+
+
+
+/*css para table por renelo*/
+#div_table_object{
+	display:block;
+}
+
+
+.table_object{	
+	
+	text-align:center;
+	font-family:Tahoma,Times New Roman;
+
+}
+
+.table_object th {
+	/*background:url("../images/header-table-object.png") repeat-x scroll 50% 50% #F6A828;*/
+	/*background:url("../images/bc_bg.png") repeat-x scroll 50% 50% #F5F5F5;*/
+	
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	border-right:0px solid #CCC;
+	font-size:11px;
+	height:30px;
+	font-family:Arial;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	/*color:#911E79;*/
+	color:#000;
+}
+
+.table_object th.right {
+	/*background:url("../images/header-table-object.png") repeat-x scroll 50% 50% #F6A828;*/
+	background:url("../images/bc_bg.png") repeat-x scroll 50% 50% #F5F5F5;
+	
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	border-right:1px solid #CCC;
+	
+	font-size:11px;
+	height:30px;
+	font-family:Arial;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	/*color:#911E79;*/
+	color:#000;
+}
+
+
+
+.table_object th span{
+	margin:5px;
+}
+
+.table_object td{		
+	font-size: 11px;	
+	padding: 2px;
+	line-height: 25px;	
+	height: 25px;
+	border: 1px solid #CCC;
+	/*border-left: 1px solid #CCC;	
+	border-bottom: 1px solid #CCC;*/
+}
+
+.table_object td.column_operations_right {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    font-size: 11px;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px;
+    
+}
+
+.table_object td.column_operations_right_data {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px;
+    
+}
+
+.table_object td.column_operations{		
+	/*background: #F0F0F0;*/
+	width:32px;
+}
+
+.table_object tbody{		
+	overflow:auto;
+}
+
+.table_object a{ color: #000 !important;/*9d2626*/ }
+
+
+
+.table_object a:hover{ color: #000;/*b5b7b8*/ }
+
+.div_table_record_founded{
+	font-family:Arial,Times New Roman,Tahoma;
+	font-size:11px;
+	text-align:left;
+	margin-left:10px;
+	margin-bottom:20px;
+	height:30px;
+	line-height:30px;
+}
+
+.div_table_record_founded span{ 
+	font-weight:bold;
+}
+
+
+.table_comment{
+	font-family:Times New Roman,Tahoma;
+	font-size:12px;
+	text-align:left;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+div.pagging {
+	/*width: 860px;*/
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px 0;
+	border-top: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+	background-color: #FFF;
+	line-height: 30px !important;
+	
+	
+}
+
+div.pagging a {
+	margin: 5px 5px;
+	color: #333;	
+	font-size: 9pt;
+	font-family: Times New Roman ;
+	font-weight: normal;
+}
+
+div.pagging a.selected {
+	margin: 5px 5px;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+div.pagging a.anterior { margin-right: 20px }
+div.pagging a.siguiente { margin-left: 20px }
+
+
+.div_menu_buttons{
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color:#0379A1;
+	width:98%;
+}
+
+.div_menu_buttons a:link, div_menu_buttons a:active{
+	font-weight:bold;
+	color:#3484AB;
+	text-decoration:none !important;
+}
+
+div_menu_buttons a:visited{
+	font-weight:bold !important;
+	color:#3484AB;
+	text-decoration:none !important;
+}
+
+
+.div_menu_buttons a:hover{
+	color:#3484AB;
+}
+
+
+.title_section{
+	font-family:Times New Roman,Arial;
+	font-size:18px;
+	font-weight:bold;
+	font-style:italic;
+	text-align:left;
+	padding:5px;
+	/*border-top:2px solid #CCC;*/
+	border-bottom:2px solid #CCC;
+}
+
+
+/**********  CRISTIAN     **********/
+	/* Color de Fila segun el Estado  */
+	.rojo{   /* Baja */
+	color:#FF0000;
+	font-weight:bold;
+	}
+	.azul{  /* Cambio de Clave */
+	color:#229AF1;
+	font-weight:bold;
+	}
+	.naranja{ /* Suspendidos */
+	color:#EB7D25;
+	font-weight:bold;
+	}
+	
+	/*************** Estilo Para Tabs ***************/
+	ul.tabs {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		height: 22px; /*32px; /*--Set height of tabs--*/
+		border-bottom: 1px solid #999;
+		border-left: 1px solid #999;
+		width: 90%;/*width: 100%;*/
+	}
+	ul.tabs li {
+		float: left;
+		margin: 0;
+		padding: 0;
+		height: 21px; /*--Subtract 1px from the height of the unordered list--*/
+		line-height: 21px; /*--Vertically aligns the text within the tab--*/
+		border: 1px solid #999;
+		border-left: none;
+		margin-bottom: -1px; /*--Pull the list item down 1px--*/
+		overflow: hidden;
+		position: relative;
+		/*background: #e0e0e0;*/
+	}
+	ul.tabs li a {
+		text-decoration: none;
+		color: #000;
+		display: block;
+		/*font-size: 1.2em;*/
+		font-size: 14px;
+		padding: 0 20px;
+		border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+		outline: none;
+	}
+	ul.tabs li a:hover {
+		background: #ccc;
+	}
+	html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+		background: #fff;
+		border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+	}
+	
+	
+	.tab_container {
+		border: 1px solid #999;
+		border-top: none;
+		overflow: hidden;
+		clear: both;
+		float: left; 
+		width: 90%;/*width: 100%;*/
+		background: #fff;
+	}
+	.tab_content {
+		padding: 10px;
+		height:320px;/*height:280px;*/
+		/*font-size: 1.2em;*/
+	}    
+	ul.tabs .ui-tabs-hide {
+	    position: absolute;
+	    left: -10000px;
+	}
+	ul.tabs .ui-tabs-show {
+	    position:static;
+	    left: 0px;
+	}
+	
+	.TablaGeneral{
+	font-family:Tahoma;
+	font-size:12px;
+	}
+	
+	.TablaGeneral th{
+		font-family:Tahoma;
+		font-size:12px;
+	}
+	.TablaGeneral tr.filaPrincipal{
+	background-color: #EFEFEF;
+	
+	}

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding= 'utf-8'?>
+<equipamientos>
+    <equipo pref="c_1">
+      <prefijo>c_1</prefijo>
+      <descripcion>Aire acondicionado</descripcion>
+    </equipo>
+  	<equipo pref="c_2">
+      <prefijo>c_2</prefijo>
+      <descripcion>Alarma de luces encendidas</descripcion>
+    </equipo>  
+    <equipo pref="c_3">
+      <prefijo>c_3</prefijo>
+      <descripcion>Apertura remota de baul</descripcion>
+    </equipo>
+    <equipo pref="c_4">
+      <prefijo>c_4</prefijo>
+      <descripcion>Asiento conductor regulable en altura</descripcion>
+    </equipo>
+    <equipo pref="c_5">
+      <prefijo>c_5</prefijo>
+      <descripcion>Asiento trasero rebatible</descripcion>
+    </equipo>
+    <equipo pref="c_6">
+      <prefijo>c_6</prefijo>
+      <descripcion>Asientos electricos</descripcion>
+    </equipo>
+    <equipo pref="c_7">
+      <prefijo>c_7</prefijo>
+      <descripcion>Cierre centralizado de puertas</descripcion>
+    </equipo>
+    <equipo pref="c_8">
+      <prefijo>c_8</prefijo>
+      <descripcion>Climatizador automatico</descripcion>
+    </equipo>
+    <equipo pref="c_9">
+      <prefijo>c_9</prefijo>
+      <descripcion>Computadora de abordo</descripcion>
+    </equipo>
+    <equipo pref="c_10">
+      <prefijo>c_10</prefijo>
+      <descripcion>Control de velocidad de crucero</descripcion>
+    </equipo>
+    <equipo pref="c_11">
+      <prefijo>c_11</prefijo>
+      <descripcion>Cristales electricos</descripcion>
+    </equipo>
+    <equipo pref="c_12">
+      <prefijo>c_12</prefijo>
+      <descripcion>Espejos electricos</descripcion>
+    </equipo>
+    <equipo pref="c_13">
+      <prefijo>c_13</prefijo>
+      <descripcion>Faros regulables desde el interior</descripcion>
+    </equipo>
+    <equipo pref="c_14">
+      <prefijo>c_14</prefijo>
+      <descripcion>GPS</descripcion>
+    </equipo>
+    <equipo pref="c_15">
+      <prefijo>c_15</prefijo>
+      <descripcion>Sensor de estacionamiento</descripcion>
+    </equipo>
+    <equipo pref="c_16">
+      <prefijo>c_16</prefijo>
+      <descripcion>Sensor de lluvia</descripcion>
+    </equipo>
+    <equipo pref="c_17">
+      <prefijo>c_17</prefijo>
+      <descripcion>Sensor de luz</descripcion>
+    </equipo>
+    <equipo pref="c_18">
+      <prefijo>c_18</prefijo>
+      <descripcion>Tapizado de cuero</descripcion>
+    </equipo>
+    <equipo pref="c_19">
+      <prefijo>c_19</prefijo>
+      <descripcion>Techo corredizo</descripcion>
+    </equipo>
+    <equipo pref="se_1">
+      <prefijo>se_1</prefijo>
+      <descripcion>Airbag conductor</descripcion>
+    </equipo>
+    <equipo pref="se_2">
+      <prefijo>se_2</prefijo>
+      <descripcion>Airbag de cortina</descripcion>
+    </equipo>
+     <equipo pref="se_3">
+      <prefijo>se_3</prefijo>
+      <descripcion>Airbag laterales</descripcion>
+    </equipo>
+    <equipo pref="se_4">
+      <prefijo>se_4</prefijo>
+      <descripcion>Airbag pasajero</descripcion>
+    </equipo>
+    <equipo pref="se_5">
+      <prefijo>se_5</prefijo>
+      <descripcion>Alarma</descripcion>
+    </equipo>
+    <equipo pref="se_6">
+      <prefijo>se_6</prefijo>
+      <descripcion>Apoya cabeza en asientos traseros</descripcion>
+    </equipo>
+     <equipo pref="se_7">
+      <prefijo>se_7</prefijo>
+      <descripcion>Blindado</descripcion>
+    </equipo>
+    <equipo pref="se_8">
+      <prefijo>se_8</prefijo>
+      <descripcion>Control de estabilidad</descripcion>
+    </equipo>
+    <equipo pref="se_9">
+      <prefijo>se_9</prefijo>
+      <descripcion>Control de traccion</descripcion>
+    </equipo>
+    <equipo pref="se_10">
+      <prefijo>se_10</prefijo>
+      <descripcion>Doble traccion</descripcion>
+    </equipo>
+    <equipo pref="se_11">
+      <prefijo>se_11</prefijo>
+      <descripcion>Faros antinieblas delanteros</descripcion>
+    </equipo>
+    <equipo pref="se_12">
+      <prefijo>se_12</prefijo>
+      <descripcion>Faros antinieblas traseros</descripcion>
+    </equipo>
+    <equipo pref="se_13">
+      <prefijo>se_13</prefijo>
+      <descripcion>Frenos ABS</descripcion>
+    </equipo>
+    <equipo pref="se_14">
+      <prefijo>c_14</prefijo>
+      <descripcion>Inmovilizador de motor</descripcion>
+    </equipo>
+    <equipo pref="se_15">
+      <prefijo>se_15</prefijo>
+      <descripcion>Isofix</descripcion>
+    </equipo>
+    <equipo pref="se_16">
+      <prefijo>se_16</prefijo>
+      <descripcion>Repartidor electronico de fuerza de frenado</descripcion>
+    </equipo>
+    <equipo pref="se_17">
+      <prefijo>se_17</prefijo>
+      <descripcion>Tercer stop</descripcion>
+    </equipo>
+    <equipo pref="e_1">
+      <prefijo>e_1</prefijo>
+      <descripcion>Paragolpes pintados</descripcion>
+    </equipo>
+    <equipo pref="e_2">
+      <prefijo>e_2</prefijo>
+      <descripcion>Vidrios polarizados</descripcion>
+    </equipo>
+    <equipo pref="so_1">
+      <prefijo>so_1</prefijo>
+      <descripcion>Radio AM/FM</descripcion>
+    </equipo>
+    <equipo pref="so_2">
+      <prefijo>so_2</prefijo>
+      <descripcion>Cargador de CD</descripcion>
+    </equipo>
+    <equipo pref="so_3">
+      <prefijo>so_3</prefijo>
+      <descripcion>Comando satelital de stereo</descripcion>
+    </equipo>
+    <equipo pref="so_4">
+      <prefijo>so_4</prefijo>
+      <descripcion>DVD</descripcion>
+    </equipo>
+    <equipo pref="so_5">
+      <prefijo>so_5</prefijo>
+      <descripcion>Entrada auxiliar</descripcion>
+    </equipo>
+    <equipo pref="so_6">
+      <prefijo>so_6</prefijo>
+      <descripcion>Entrada USB</descripcion>
+    </equipo>
+    <equipo pref="so_7">
+      <prefijo>so_7</prefijo>
+      <descripcion>MP3</descripcion>
+    </equipo>
+    <equipo pref="so_8">
+      <prefijo>so_8</prefijo>
+      <descripcion>Pasacassette</descripcion>
+    </equipo>
+    <equipo pref="so_9">
+      <prefijo>so_9</prefijo>
+      <descripcion>Tarjeta SD</descripcion>
+    </equipo>
+</equipamientos>

@@ -1,0 +1,183 @@
+table.ficha tr th.titulo {
+	background-color: #FCEFFF;
+	
+	width: 340px;
+	text-align: left;
+	padding-left: 10px;
+	border: solid 1px #AAA;
+	font-family:Tahoma;
+}
+
+table.ficha td {
+	border-bottom: solid 1px #EFEFEF;
+	border-right: solid 1px #AAA;
+	text-align: left;
+	font-family:Tahoma;
+}
+
+table.ficha td.borde, table.ficha th.borde {
+	border: solid 1px #AAA;
+	border-top: 0;
+	border-bottom: solid 1px #EFEFEF;
+}
+
+table.ficha th {
+	border-bottom: solid 1px #EFEFEF;
+	font-size: 8pt;
+	text-align: left;
+	padding-left: 15px;
+	border-left: solid 1px #AAA;	
+	font-family:Tahoma;
+}
+
+table.ficha div.cobertura {
+	width: 230px;
+	height: 50px;
+	overflow-y: scroll;
+	border: inset 2px #CCC;	
+	margin: 5px 0;
+	font-size: 6.4pt;
+}
+
+table.ficha {
+	border: solid 1px #AAA;
+	width: auto;
+	border-collapse: collapse;
+}
+
+table.ficha td.ultimo, table.ficha th.ultimo {
+	border-bottom: solid 1px #AAA;
+	
+}
+
+table.ficha textarea {
+	margin: 0 auto;
+	border: inset 2px #CCC;
+}	
+
+
+table.ficha button {
+	margin: 0 15px;
+}
+
+
+/*/table.ficha input[type="text"]
+style="display:none;"
+*/
+table.ficha input { 
+font-family: Tahoma, Verdana, Arial; 
+font-size: 11px;  
+
+border: #CCC; 
+border-style: solid; 
+border-top-width: 1px; 
+border-right-width: 1px; 
+border-bottom-width: 1px; 
+border-left-width: 1px
+}
+
+table.ficha textarea.descripcion {
+	font-family: Tahoma, Verdana, Arial; 
+	font-size:12px;  
+	width:80%;
+	border: #CCC; 
+	border-style: solid; 
+	border-top-width: 1px; 
+	border-right-width: 1px; 
+	border-bottom-width: 1px; 
+	border-left-width: 1px
+}	
+
+/*-------------------------------------------------------------------------------*/
+
+
+table.fichaSinBordes tr th.titulo {
+	background-color: #B5D2DF;
+	
+	width: 350px;
+	text-align: left;
+	padding-left: 10px;
+	border: solid 1px #AAA;
+}
+
+table.fichaSinBordes td {
+	/*border-bottom: solid 1px #EFEFEF;
+	border-right: solid 1px #AAA;*/
+	
+}
+
+table.fichaSinBordes td.borde, table.fichaSinBordes th.borde {
+	border: solid 1px #AAA;
+	border-top: 0;
+	border-bottom: solid 1px #EFEFEF;
+}
+
+table.fichaSinBordes th {
+	/*border-bottom: solid 1px #EFEFEF;*/
+	font-size: 7.5pt;
+	text-align: left;
+	padding-left:5px;
+	/*border-left: solid 1px #AAA;	*/
+	
+}
+
+table.fichaSinBordes div.cobertura {
+	width: 230px;
+	height: 50px;
+	overflow-y: scroll;
+	border: inset 2px #CCC;	
+	margin: 5px 0;
+	font-size: 6.4pt;
+}
+
+table.fichaSinBordes {
+	border: solid 1px #AAA;
+	width: auto;
+	border-collapse: collapse;
+}
+
+table.fichaSinBordes td.ultimo, table.fichaSinBordes th.ultimo {
+	border-bottom: solid 1px #AAA;
+	
+}
+
+table.fichaSinBordes textarea {
+	margin: 0 auto;
+	border: inset 2px #CCC;
+}	
+
+
+table.fichaSinBordes button {
+	margin: 0 15px;
+}
+
+
+/*/table.fichaSinBordes input[type="text"]
+style="display:none;"
+*/
+table.fichaSinBordes input { 
+font-family: Tahoma, Verdana, Arial; 
+font-size: 11px;  
+
+border: #CCC; 
+border-style: solid; 
+border-top-width: 1px; 
+border-right-width: 1px; 
+border-bottom-width: 1px; 
+border-left-width: 1px
+}
+
+table.fichaSinBordes textarea.descripcion {
+	font-family: Tahoma, Verdana, Arial; 
+	font-size:12px;  
+	width:98%;
+	height:90px;
+	border: #CCC; 
+	border-style: solid; 
+	border-top-width: 1px; 
+	border-right-width: 1px; 
+	border-bottom-width: 1px; 
+	border-left-width: 1px
+}	
+
+

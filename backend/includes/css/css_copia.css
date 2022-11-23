@@ -1,0 +1,1392 @@
+* {margin: 0; padding: 0}
+
+body { 
+	font-size: 11pt; 
+	font-family: Verdana,Tahoma,Arial , Helvetica, sans-serif; 
+	text-align:center; 
+	background-color:#FFF;/*727878*/ 
+	width:100%; 
+	height:100%; 
+	Overflow-x:hidden;
+}
+
+p,td{
+	font-size: 11pt; 
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color: #000000;
+	left: 0;	
+}
+
+div#idBanner{width:100%;height:50px;}/*background: url(../images/HeaderBuscadorSinBordes.jpg) repeat-x;**/
+div#idOculto{background:#D3E2E5;width:100%;height:100%;}/*background: url(../images/HeaderBuscadorSinBordes.jpg) repeat;*/
+/*div#idBanner{width:100%;height:58px;background: url(../images/Header.jpg) repeat-x; }*/
+
+div#idLogo{margin:0px;padding:0px;width:300px;height:100px;float:left; z-index:10000000 !important;background:url(../images/tenelo-header.jpg) no-repeat;}/* */
+
+div#idMenuSuperior{color:#fff;margin:20px;padding:0px;width:600px;height:58px;float:right;}
+
+a { font-family:Tahoma;font-size:12px;underline:none; color: #336699; }
+a:hover { color: #FFBB00; }
+a:visited { color: #336699; }
+
+div.clear { clear: both; height: 1px; }
+div.espacio { height: 10px; }
+
+span.espacioMio { display: block; height: 20px; }
+
+img { border: 0; }
+
+div#BODY { width:100%; margin:5px auto; /*padding: 5px;*/ background:#ffffff; border:0px solid #ccc;}
+
+div#BODY div.cabecera { font-size: 10pt; margin: 0px; background: #727878; width:60%; height:40px;}
+
+div#BODY div.cuerpo { margin: 30px auto 20px; text-align: left;	padding: 15px; background:#FFFFFF; width:100%;}
+
+/*-----------------------Para el Form --------------------------------------------------------*/
+
+form div.division, form span.division  { height: 1px; border-top: solid 1px #DDD; margin: 15px 15px 0px; display: block; }
+
+form div.buttons{ border-top: solid 1px #CCC; text-align: center; padding: 25px 0 15px; margin-top: 15px  }
+form div.buttons button { width: 120px; line-height: 20px; margin: 0 20px }
+form div.error {text-align:center; color: #F00; font-weight: bold; padding-bottom: 15px }
+
+
+form ul {
+
+	display: block;
+	padding: 0; 
+	list-style: none; 
+	/*overflow-x: hidden; 
+	overflow-y: scroll; */
+	border: inset 0px ActiveBorder; 
+	white-space: nowrap;
+	margin-bottom: 5px;
+	text-align:left;
+}
+
+form ul.errores {	
+	color: #F00;
+	font-size: 10pt;
+	margin: 10px auto;
+	
+	background-color: #FFF;
+	padding: 0;
+	padding-left: 5px;
+	/*border-bottom: solid 1px #EEE;*/
+	text-align: left;		
+}
+
+form ul.errores li { padding: 5px 0; }
+
+form.FormGeneric{ margin: 15px auto; width:700px; }
+
+form.FormGeneric select{ width: 150px; height:25px; }
+
+form.FormGeneric input{	font-family: Tahoma; font-size:11px;height:18px;}
+
+form.FormGeneric table.Formulario{ width: 600px; }
+
+form.FormGeneric table.Formulario th{
+	text-align:right;
+	width: 100px;
+	/*font-weight:bold;*/
+	font-family: tahoma,Times New Roman,Tahoma;
+	color: #424242;
+	font-size:10px;
+}
+
+
+form.FormGeneric input[type=text]{	
+	font-family: Tahoma; font-size:11px;height:18px;
+	height:22px;
+	border:1px solid #CCC;
+	/*background:#FFF;*/
+	color:#000;
+	padding-top:6px;
+	padding-left:5px;
+	background: #FFFFFF url(../images/backgroundInputText.gif) repeat-x;	
+}
+
+form.FormGeneric input[type=password]{	
+	font-family: Tahoma; font-size:11px;height:18px;
+	height:22px;
+	border:1px solid #CCC;
+	/*background:#FFF;*/
+	color:#000;
+	padding-top:6px;
+	padding-left:5px;
+	background: #FFFFFF url(../images/backgroundInputText.gif) repeat-x;	
+}
+
+form.FormGeneric input[type=submit]{	
+	height:30px;	
+	color:#000;
+	/*background: #FFFFFF url(../images/btn_13.png) repeat-x;*/
+	border-left: 1px solid #a8a8a8;
+	border-top: 1px solid #a4a4a4;
+	border-bottom: 1px solid #F5F5F5;
+	border-right: 1px solid #a4a4a4;
+	
+}
+
+form.FormGeneric table.Formulario td{
+	text-align:left;		
+	font-family: Sans,Times New Roman,Tahoma;
+	font-size:11px;
+	
+}
+
+
+.TituloFormulario{
+	background: url(../images/searchProvincias.png) no-repeat;
+	text-align:left;		
+	font-family: Sans,Times New Roman,Tahoma;
+	font-size:11px;	
+	border-bottom: 1px solid #CCCCCC;
+}
+
+
+
+/*:::Div para mostrar espacio en blanco*/
+
+div.clear { clear: both; height: 1px; }
+div.espacio { height: 10px; }
+
+/*:::Mensajes de Alerta y otros*/
+
+.messagge {
+	background: #F7F9E5 url(images/via.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #DBDCCD;
+	border-bottom: 2px solid #DBDCCD;
+	color:#000000;
+	font-family:Tahoma;
+	font-size:11px;
+	line-height:30px;
+}
+
+.informative {
+	background: #E7F9F8 url(images/info.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #B5D4FE;
+	border-bottom: 2px solid #B5D4FE;
+	color:#000000;
+	font-family:Tahoma;
+	font-size:11px;
+	line-height:30px;
+}
+
+.warning {
+	background: #FDD1C5 url(images/importante.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #FBAB95;
+	border-bottom: 2px solid #FBAB95;
+	color:#000000;
+	font-family:Tahoma;
+	font-size:11px;
+	line-height:30px;
+}
+
+
+/*:::Estilo para paginacion*/
+div.pagging {
+	width: 860px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px 0;
+	border-top: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+	background-color: #FFF;
+	line-height: 30px !important;
+	
+	
+}
+
+div.pagging a {
+	margin: 5px 5px;
+	color: #333;	
+	font-size: 9pt;
+	font-family: Times New Roman ;
+}
+
+div.pagging a.selected {
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+div.pagging a.anterior { margin-right: 20px }
+div.pagging a.siguiente { margin-left: 20px }
+
+
+/*:::Navegador de direcciones*/
+.addresPath{
+	background: url(../images/home.png);
+	background-repeat: no-repeat;
+	/*border-bottom: 1px solid #F5F5F5;*/
+	height: 25px;
+	width:890px;
+	text-align:left;
+	font-family:Tahoma;
+	font-size:11px;
+	
+}
+
+/*:::Tabla de Formulario de Facturas*/
+
+table#TableFactura{
+	width:705px;
+}
+
+table#TableFactura th{
+	font-family:georgia,serif;
+	text-align:left;
+	font-size:12px;
+}
+
+table#TableFactura input.sNumFactura{
+	border:1px solid #DDD;
+	width:200px;
+	height:25px;
+}
+
+table#TableFactura input.checkbox{	
+	height:15px;
+	border:0px solid #FFF !important;
+	width:15px;	
+}
+
+table#TableFactura input{
+	border:1px solid #DDD;
+	width:150px;
+	height:25px;
+	padding:3px;
+}
+
+table#TableFactura input.radio{
+	width:15px;
+	height:15px;
+	padding:3px;
+}
+
+
+table#TableFactura select{
+	border:1px solid #DDD;
+	width:150px;
+	height:25px;
+}
+
+table#TableFactura select#idTipoFactura{
+	border:1px solid #DDD;
+	width:50px;
+	height:25px;
+}
+
+
+table#TableList {
+	width:660px;
+	font-family:Times New Roman;
+}
+
+table#TableList th{
+	height:30px;
+	font-size:12px;
+	font-weight:bold;
+	background:#F5F5F5;
+	border-top:1px solid #DDD;
+	border-left:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+}
+
+table#TableList td{
+	font-size:12px;		
+}
+
+div#divFilter{
+	width:660px;
+}
+
+div#divFilter fieldset{
+	border:1px solid #DDD;
+}
+
+div#divFilter legend{
+	font-weight:bold;
+	font-family:Times New Roman;
+}
+
+div#divFilter table#TableFilter{
+	font-family:Times New Roman;
+	font-size:12px;
+}
+
+div#divFilter table#TableFilter{
+	font-family:Times New Roman;
+	font-size:12px;
+}
+
+div#divFilter td.title{
+	font-weight:bold;	
+	font-size:11px;
+}
+
+div#divFilter input {
+	border:1px solid #DDD;	
+	height:25px;
+	padding-top:3px;
+	padding-left:5px;
+}
+
+div#divFilter select {
+	border:1px solid #DDD;	
+}
+
+
+
+table#TableHeadFilter {
+	font-family:Times New Roman;
+	font-size:11px;
+}
+
+table#TableHeadFilter td.title{
+	font-weight:bold;
+	width:120px;
+}
+
+/*Estilo para Clientes*/
+table#TableCustomer{
+	font-family: Verdana,Tahoma,Arial , Helvetica, sans-serif; 
+	font-size:11px;
+	/*background:#FFF url(../includes/images/bg_lines.gif) repeat-x;*/
+}
+
+table#TableCustomer td div#sCodigo{
+	text-align:left;
+	font-size:18px;
+	font-weight:bold;
+}
+table#TableCustomer th{
+	text-align:right;
+}
+
+table#TableFormCtaCte{	
+	color:#000;
+}
+
+
+table#TableFormCtaCte td{	
+	font-family:Tahoma;
+	font-size:10px;
+	font-size-adjust:none;
+	font-stretch:normal;	
+	font-weight:bold;
+	letter-spacing:2px;	
+	margin-bottom:1em;
+	text-transform:uppercase;
+	
+}
+
+
+table#TableFormCtaCte td.comentarios{
+	
+	font-family:Tahoma;
+	font-size:10px;
+	font-size-adjust:none;
+	font-stretch:normal;		
+	letter-spacing:2px;	
+	margin-bottom:1em;
+	
+}
+
+table#TableFormCtaCte td.FechaMovimiento{
+	
+	font-family:Tahoma;
+	font-size:13px;
+	font-size-adjust:none;
+	font-stretch:normal;		
+	letter-spacing:2px;	
+	margin-bottom:1em;
+	
+}
+
+table#TableFormCtaCte td.sComentarios{
+	color:#DDD;
+	font-family:Tahoma;
+	font-size:10px !important;
+	font-size-adjust:none;	
+	margin-bottom:1em;
+	
+}
+
+table#TableFormCtaCte input{
+	border:1px solid #DDDDDD;	
+	width:150px;
+	height:25px;	
+	background:#FFF url(../images/backgroundInputText.gif) repeat-x;
+}
+
+table#TableFormCtaCte textarea{
+	border:1px solid #DDDDDD;	
+	width:150px;
+	
+	background:#FFF;	
+}
+
+table#TableFormCtaCte select{
+	border:1px solid #DDDDDD;	
+	width:150px;
+	background:#FFF;
+	
+	font-size:10px;
+}
+
+table#TableFormCtaCte button.button{
+	border:1px solid #DDDDDD;
+	/*background:#B5D6DF;	*/
+	width:120px;
+	background:#FFF url(../images/backgroundInputText.gif) repeat-x;
+	font-size:11px;
+}
+
+table#TableFormCtaCte input.checkbox{	
+	height:15px;
+	border:0px solid #FFF !important;
+	width:15px;	
+}
+
+fieldset#FormCtaCte, legend{
+	color:#000;
+	border:1px solid #DDD;
+	padding:5px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	opacity: 0.8;	
+	
+}
+
+fieldset#formEmpleado, legend{
+	color:#000;
+	border:1px solid #DDD;
+	padding:5px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	opacity: 0.8;	
+	
+}
+
+
+table#TableRemitos{
+	font-family:Times New Roman,Tahoma,Arial,Verdana;
+	font-size:12px;	
+	/*background:#DDD;*/
+}
+
+table#TableRemitos input{
+	border:1px solid #DDD;
+	height:30px;
+	width:150px;
+	padding-top:5px;
+}
+
+table#TableRemitos select{
+	border:1px solid #DDD;
+	height:30px;
+	width:150px;	
+}
+
+table#TableRemitos input.Fecha{
+	border:0px solid #DDD;
+	height:30px;
+	width:80px;
+	padding-top:5px;
+	font-weight:bold;
+	font-size:14px;
+}
+
+table#TableRemitos input.radio{
+	height:15px;
+	width:15px;	
+}
+
+
+ table#TableFormCuenta{	
+	color:#000;
+}
+
+
+table#TableFormCuenta td{	
+	font-family:georgia,serif;
+	font-size:10px;
+	font-size-adjust:none;
+	font-stretch:normal;	
+	font-weight:bold;
+	letter-spacing:2px;	
+	margin-bottom:1em;
+	text-transform:uppercase;
+	
+}
+
+
+table#TableFormCuenta td.comentarios{
+	
+	font-family:georgia,serif;
+	font-size:10px;
+	font-size-adjust:none;
+	font-stretch:normal;		
+	letter-spacing:2px;	
+	margin-bottom:1em;
+	
+}
+
+table#TableFormCuenta td.FechaMovimiento{
+	
+	font-family:georgia,serif;
+	font-size:13px;
+	font-size-adjust:none;
+	font-stretch:normal;		
+	letter-spacing:2px;	
+	margin-bottom:1em;
+	
+}
+
+table#TableFormCuenta td.sComentarios{
+	color:#DDD;
+	font-family:verdana;
+	font-size:10px !important;
+	font-size-adjust:none;	
+	margin-bottom:1em;
+	
+}
+
+table#TableFormCuenta input{
+	border:1px solid #DDDDDD;	
+	width:150px;
+	height:25px;	
+	background:#FFF url(../images/backgroundInputText.gif) repeat-x;
+}
+
+table#TableFormCuenta textarea{
+	border:1px solid #DDDDDD;	
+	width:150px;
+	
+	background:#FFF;	
+}
+
+table#TableFormCuenta select{
+	border:1px solid #DDDDDD;	
+	width:150px;
+	background:#FFF;
+	
+	font-size:10px;
+}
+
+table#TableFormCuenta button.button{
+	border:1px solid #DDDDDD;
+	/*background:#B5D6DF;	*/
+	width:120px;
+	background:#FFF url(../images/backgroundInputText.gif) repeat-x;
+	font-size:11px;
+}
+
+table#TableFormCuenta input.checkbox{	
+	height:15px;
+	border:0px solid #FFF !important;
+	width:15px;	
+}
+
+fieldset#FormCuenta, legend{
+	color:#000;
+	border:1px solid #DDD;
+	padding:10px;
+	font-family:Tahoma;
+    font-size:12px;
+	font-weight:bold;
+	opacity: 0.8;	
+	
+}
+
+
+div.CodigoProducto{
+	font-family:Times New Roman;
+	font-weight:bold;
+	font-size:18px;
+	text-align:left;
+	width:98%;
+}
+
+table#TableStock{
+	font-family:Times New Roman;	
+	font-size:14px;
+}
+
+table#TableStock td.title{
+	font-weight:bold;
+	width:150px;
+}
+
+table#TableStock td.Dato{	
+	width:250px;
+	
+}
+
+table#TableReposicion{
+	font-family:Times New Roman;	
+	font-size:14px;
+}
+
+table#TableReposicion td.title{
+	font-weight:bold;
+	width:150px;
+}
+
+table#TableReposicion input{	
+	width:150px;
+	height:25px;
+	border: 1px solid #DDD;
+}
+
+table#TableReposicion textarea#sObservaciones{
+	width:150px;
+	height:50px;
+	border: 1px solid #DDD;
+}
+
+table#TableReposicion button{
+	width:150px;
+	height:25px;
+	border: 1px solid #DDD;
+}
+
+
+table#resumen {
+	border-collapse: collapse;
+	/*width: 100%;*/
+	background-color: #FFF;
+	border:solid 1px;
+	width: 100% !important;/*400px !important;*/
+}
+
+table#resumen td {
+	font-size: 10px;
+	width: 95px;
+	text-align: right;
+	border: solid 1px #888;
+	
+	
+}
+
+table#resumen span {
+	float: left;
+	position: relative;
+	left: 15px;
+}
+
+table#resumen thead th {
+	border: solid 1px #888 !important;
+	background-color: #EFEFEF !important;
+	font-size: 10pt !important;
+}
+
+
+table#resumen tfoot th {
+	border: solid 1px #888;
+	background-color: #EFEFEF;
+	font-weight: normal;
+	font-size: 10pt !important;
+	
+}
+
+table#resumen tbody th {
+
+	width:180px; 
+	text-align: left;
+	font-size: 10px;
+	font-weight: normal;
+	border: solid 1px #888;
+	
+}
+
+
+.bloque {
+	height: 240px;
+	border: solid 1px #333;
+	background-color: #EEE;
+}
+
+
+td#celda_principal {
+	padding: 0;
+	height: 200px;
+	vertical-align: top;
+	overflow-y: scroll;
+}
+
+td#celda_principal div {
+	height:200px;
+	overflow-y: scroll;
+	width:100%;
+
+}
+
+td#celda_principal table {
+	border-collapse: collapse;
+	margin: 0;
+	width: 100%;
+	
+}
+
+td#celda_principal table th {
+	width: 177px;
+	font-weight: bold !important;
+}
+
+td#celda_principal table td, td#celda_principal table th {
+	padding: 2px 2px;
+	border-left: 0;
+	border-right: 0;
+	padding-right: 2px;
+	
+}
+
+
+.centro {
+	width: 410px;
+	margin: 0 auto;
+}
+
+div#mensaje_cerrada {
+
+	color: #E22;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 15px;
+	background-color: #EAEAEA;
+}
+
+tr.nuevo td, tr.nuevo th{
+	font-weight: bold !important;
+}
+
+button.button{
+	border:1px solid #DDDDDD;
+	/*background:#B5D6DF;	*/
+	width:120px;
+	background:#FFF url(../images/backgroundInputText.gif) repeat-x;
+	font-size:11px;
+}
+
+/******************************************** 15-01-2010 **********************/
+
+div#divAbrirCaja{
+border:solid 1px #CCC;
+/*margin-top:-100px !important;*/
+width:100%;
+padding:10px !iportant;
+}
+div#divAbrirCaja input{
+	border:1px solid #DDDDDD;	
+	width:150px;
+	height:25px;	
+	background:#FFF url(../images/backgroundInputText.gif) repeat-x;
+}
+
+
+div#divAbrirCaja button.button{
+	border:1px solid #DDDDDD;
+	/*background:#B5D6DF;	*/
+	width:120px;
+	background:#FFF url(../images/backgroundInputText.gif) repeat-x;
+	font-size:11px;
+}
+
+div#EncabezadoCaja{
+background:#E4E4E4 !important;
+border:solid 1px #CCC !important;
+}
+.border_bottom_right{
+	border-right:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+}
+/****************************20-01-2010******************************************/
+
+
+table#TableServicio{
+	width:400px;
+}
+
+table#TableServicio th{
+	font-family:georgia,serif;
+	text-align:left;
+	font-size:12px;
+}
+
+
+table#TableServicio input.checkbox{	
+	height:15px;
+	border:0px solid #FFF !important;
+	width:15px;	
+}
+
+table#TableServicio input{
+	border:1px solid #DDD;
+	width:150px;
+	height:25px;
+	padding:3px;
+}
+
+table#TableServicio input.radio{
+	width:15px;
+	height:15px;
+	padding:3px;
+}
+
+
+table#TableServicio select{
+	border:1px solid #DDD;
+	width:250px;
+	height:25px;
+}
+
+table#TableServicio select#idVehiculo{
+	border:1px solid #DDD;
+	width:150px;
+	height:25px;
+}
+
+table#TableInformeGlobal{
+	width:400px;
+}
+
+table#TableInformeGlobal th{
+	font-family:georgia,serif;
+	text-align:left;
+	font-size:12px;
+}
+
+
+table#TableInformeGlobal input[type='checkbox']{	
+	height:15px;
+	border:0px solid #FFF !important;
+	width:15px !important;	
+}
+
+table#TableInformeGlobal input{
+	border:1px solid #DDD;
+	width:150px;
+	height:20px;
+	padding:3px;
+	background:#FFF url(../images/backgroundInputText.gif) repeat-x;
+}
+
+table#TableInformeGlobal input.radio{
+	width:15px;
+	height:15px;
+	//padding:3px;
+}
+
+
+table#TableInformeGlobal select{
+	border:1px solid #DDD;
+	width:250px;
+	height:25px;
+}
+
+table#TableInformeGlobal select#iDias{
+	border:1px solid #DDD;
+	width:50px;
+	height:25px;
+}
+
+table.TableVentasPorMovilMensual{
+	font-familiy:Times New Roman;
+	font-size:12px;	
+}
+
+table.TableVentasPorMovilMensual th{
+	background:#B5D6DF;/*B5D6DF*/
+	border-top:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+	border-left:1px solid #DDD;
+	height:25px;
+}
+
+table.TableVentasPorMovilMensual td{		
+	border-bottom:1px solid #DDD;
+	border-left:1px solid #DDD;
+	height:25px;
+}
+
+
+
+.message_alert{
+	width:100%;
+	text-align:left;
+	height:30px;
+	background:#FDD1C5;
+	border-top:2px solid #FBAB95;
+	border-bottom: 2px solid #FBAB95;
+	color:#000;
+	padding-top:3px;
+	font-weight:bold;
+}
+
+/*******************************************************************************/
+div.classCabeceraListado{ font-size: 10pt; /*margin: 5px;*/ background: url(../images/Encabezado.jpg) no-repeat; width:700px; height:100px;}
+
+
+
+
+fieldset#fieldBuscador, legend{
+	color:#000;
+	border:1px solid #DDD;
+	padding:10px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	opacity: 0.8;	
+	
+}
+
+table#tableBuscadorCall input[type=text]{
+	border:1px solid #DDDDDD;	
+	width:100px;
+	height:20px;	
+	/*background:#FFF url(../images/backgroundInputText.gif) repeat-x;*/
+	background:#FFF;
+}
+table#tableBuscadorCall th,td {
+  font-size:10pt;
+
+}
+table#tableBuscadorCall select#Tipo {
+  width:100px !important;
+
+}
+
+/************************************************************************************************************
+*	DHTML modal dialog box	(CSS for the DHTMLSuite_modalMessage class)
+*
+*	Created:						August, 26th, 2006
+*	@class Purpose of class:		Display a modal dialog box on the screen.
+*			
+*	Css files used by this script:	modal-message.css
+*
+* 	Update log:
+*
+************************************************************************************************************/
+
+.modalDialog_transparentDivs{	
+	filter:alpha(opacity=40);	/* Transparency */
+	opacity:0.4;	/* Transparency */
+	background-color:#AAA;
+	z-index:1;
+	position:absolute; /* Always needed	*/
+}
+.modalDialog_contentDiv{
+	border:3px solid #000;	
+	padding:2px;
+	z-index:100;/* Always needed	*/
+	position:absolute;	/* Always needed	*/
+	background-color:#FFF;	/* White background color for the message */
+}
+.modalDialog_contentDiv_shadow{
+	z-index:90;/* Always needed	- to make it appear below the message */
+	position:absolute;	/* Always needed	*/
+	background-color:#555;
+	filter:alpha(opacity=30);	/* Transparency */
+	opacity:0.3;	/* Transparency */	
+}
+
+div#saltopagina{ 
+display:block; 
+page-break-before:always; 
+}
+
+/*::RENELO 24-07-2010*/
+
+.reporte_cheques{
+	width:95%;
+	font-family:Times New Roman,Arial;
+	font-size:12px;
+}
+
+.date_cheque{
+	width:250px;
+	font-family:Times New Roman,Arial;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	height:30px;
+	background:#901E76;
+	border:1px solid #CCC;
+	color:#FFF;
+}
+
+.tipo_cheque{
+	width:250px;
+	font-family:Times New Roman,Arial;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	height:30px;
+}
+
+.tipo_cheque label{
+	width:125px;
+	font-family:Times New Roman,Arial;
+	font-size:12px;	
+	text-align:left;	
+}
+
+.cheque {	
+	font-family:Times New Roman,Arial;
+	font-size:11px;	
+	text-align:left;
+	height:100px;
+}
+
+.tabla_buscar_cheques{
+	width:80%;
+	font-size:11px;
+}
+
+table.tabla_buscar_cheques th {
+		text-align:left;
+	}
+
+
+.caja_texto{
+	border:1px solid #CCC;
+	height:25px;
+}	
+
+/*::FIN::*/
+/*:::IMPRESION*/
+
+div#impresiones { display: none; }
+
+@media print {    
+    
+	div#impresiones {
+
+		display: block;
+		width: 98%;				
+		margin:0px;
+		padding:0px;
+		text-align:center;
+	}			
+	
+	div#cabecera{ display: none; }	
+	div#BODY{ display: none; }	
+    div.dhtmlxWindowMainContent{display: none;}	
+    div.dhtmlx_wins_body_content{display: none;}	
+    #CuerpoPrincipal{ display: none; }
+   
+    div#saltopagina{ 
+	/*display:block; */
+	page-break-before:always; 
+	}
+}
+
+/**********  CRISTIAN     **********/
+	/* Color de Fila segun el Estado  */
+	.rojo{   /* Baja */
+	color:#FF0000;
+	font-weight:bold;
+	}
+	.azul{  /* Cambio de Clave */
+	color:#229AF1;
+	font-weight:bold;
+	}
+	.naranja{ /* Suspendidos */
+	color:#EB7D25;
+	font-weight:bold;
+	}
+	
+	/*************** Estilo Para Tabs ***************/
+	ul.tabs {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		height: 22px; /*32px; /*--Set height of tabs--*/
+		border-bottom: 1px solid #999;
+		border-left: 1px solid #999;
+		width: 90%;/*width: 100%;*/
+	}
+	ul.tabs li {
+		float: left;
+		margin: 0;
+		padding: 0;
+		height: 21px; /*--Subtract 1px from the height of the unordered list--*/
+		line-height: 21px; /*--Vertically aligns the text within the tab--*/
+		border: 1px solid #999;
+		border-left: none;
+		margin-bottom: -1px; /*--Pull the list item down 1px--*/
+		overflow: hidden;
+		position: relative;
+		/*background: #e0e0e0;*/
+	}
+	ul.tabs li a {
+		text-decoration: none;
+		color: #000;
+		display: block;
+		/*font-size: 1.2em;*/
+		font-size: 14px;
+		padding: 0 20px;
+		border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+		outline: none;
+	}
+	ul.tabs li a:hover {
+		background: #ccc;
+	}
+	html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+		background: #fff;
+		border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+	}
+	
+	
+	.tab_container {
+		border: 1px solid #999;
+		border-top: none;
+		overflow: hidden;
+		clear: both;
+		float: left; 
+		width: 90%;/*width: 100%;*/
+		background: #fff;
+	}
+	.tab_content {
+		padding: 10px;
+		height:320px;/*height:280px;*/
+		/*font-size: 1.2em;*/
+	}    
+	ul.tabs .ui-tabs-hide {
+	    position: absolute;
+	    left: -10000px;
+	}
+	ul.tabs .ui-tabs-show {
+	    position:static;
+	    left: 0px;
+	}
+	
+	.TablaGeneral{
+	font-family:Tahoma;
+	font-size:12px;
+	}
+	
+	.TablaGeneral th{
+		font-family:Tahoma;
+		font-size:12px;
+	}
+	.TablaGeneral tr.filaPrincipal{
+	background-color: #EFEFEF;
+	
+	}
+	
+/*css para table por renelo*/
+#div_table_object{
+	display:block;
+}
+
+
+.table_object{	
+	
+	text-align:center;
+	font-family:Tahoma,Times New Roman;
+
+}
+
+.table_object th {
+	/*background:url("../images/header-table-object.png") repeat-x scroll 50% 50% #F6A828;*/
+	background:url("../images/bc_bg.png") repeat-x scroll 50% 50% #F5F5F5;
+	
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	border-right:0px solid #CCC;
+	font-size:12px;
+	height:30px;
+	font-family:Arial;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	/*color:#911E79;*/
+	color:#000;
+}
+
+.table_object th.right {
+	/*background:url("../images/header-table-object.png") repeat-x scroll 50% 50% #F6A828;*/
+	background:url("../images/bc_bg.png") repeat-x scroll 50% 50% #F5F5F5;
+	
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	border-right:1px solid #CCC;
+	
+	font-size:12px;
+	height:30px;
+	font-family:Arial;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	/*color:#911E79;*/
+	color:#000;
+}
+
+
+
+.table_object th span{
+	margin:5px;
+}
+
+.table_object td{		
+	font-size: 12px;	
+	padding: 2px;
+	line-height: 25px;	
+	height: 25px;
+	border-left: 1px solid #CCC;	
+	border-bottom: 1px solid #CCC;
+}
+
+.table_object td.column_operations_right {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px;
+    
+}
+
+.table_object td.column_operations_right_data {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px;
+    
+}
+
+.table_object td.column_operations{		
+	/*background: #F0F0F0;*/
+	width:32px;
+}
+
+.table_object tbody{		
+	overflow:auto;
+}
+
+.table_object a{ color: #000 !important;/*9d2626*/ }
+
+
+
+.table_object a:hover{ color: #000;/*b5b7b8*/ }
+
+.div_table_record_founded{
+	font-family:Arial,Times New Roman,Tahoma;
+	font-size:11px;
+	text-align:left;
+	margin-left:10px;
+	margin-bottom:20px;
+	height:30px;
+	line-height:30px;
+}
+
+.div_table_record_founded span{ 
+	font-weight:bold;
+}
+
+
+.table_comment{
+	font-family:Times New Roman,Tahoma;
+	font-size:12px;
+	text-align:left;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+div.pagging {
+	/*width: 860px;*/
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px 0;
+	border-top: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+	background-color: #FFF;
+	line-height: 30px !important;
+	
+	
+}
+
+div.pagging a {
+	margin: 5px 5px;
+	color: #333;	
+	font-size: 9pt;
+	font-family: Times New Roman ;
+	font-weight: normal;
+}
+
+div.pagging a.selected {
+	margin: 5px 5px;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+div.pagging a.anterior { margin-right: 20px }
+div.pagging a.siguiente { margin-left: 20px }
+
+
+.div_menu_buttons{
+	font: 12px Arial, Helvetica, sans-serif;
+	color:#0379A1;
+	width:98%;
+}
+
+.div_menu_buttons a:link, div_menu_buttons a:active{
+	font-weight:bold;
+	color:#3484AB;
+	text-decoration:none !important;
+}
+
+div_menu_buttons a:visited{
+	font-weight:bold !important;
+	color:#3484AB;
+	text-decoration:none !important;
+}
+
+
+.div_menu_buttons a:hover{
+	color:#3484AB;
+}
+
+
+.title_section{
+	font-family:Times New Roman,Arial;
+	font-size:18px;
+	font-weight:bold;
+	font-style:italic;
+	text-align:left;
+	padding:5px;
+	/*border-top:2px solid #CCC;*/
+	border-bottom:2px solid #CCC;
+}	
+
+.TablaSolicitud{
+	border-collapse: collapse;
+	font-family:Tahoma;
+	font-size:10px;
+}
